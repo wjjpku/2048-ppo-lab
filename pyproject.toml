@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=78,<82"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "2048-ppo-lab"
+version = "0.1.0"
+description = "A small PPO player, honest experiment notes, and full-game 2048 replays"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.2,<3", "torch>=2.8,<2.13"]
+readme = "README.md"
+
+[project.optional-dependencies]
+test = ["pytest>=8.4,<10"]
+
+[project.scripts]
+2048-ppo = "game2048.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["game2048*"]
+
+[tool.setuptools.package-data]
+game2048 = ["assets/models/*.pt", "assets/models/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

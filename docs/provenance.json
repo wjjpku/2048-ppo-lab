@@ -1,0 +1,24 @@
+{
+  "core_source_commit": "1bdba829fe116963fb21eb494432500d7b68bc42",
+  "unchanged_core_files_sha256": {
+    "game2048/env.py": "08b856283e23dc2f92e33b8c586329e65c15395cb1d3ba70645248fc213c37ba",
+    "game2048/model.py": "88ac62b7958ebc0e1982231e940c841b60aeb32f681d3fbecd567fbadce846e0",
+    "game2048/gae.py": "e384150ebcd0b3e2b4c52e70c7b291cf052486accbf86f7ba9ea60ce9d7970d7",
+    "game2048/ppo.py": "13c515de165dae209f1063012767ea3fd8e91cbc576ecb8d83bf51bc42978681",
+    "game2048/rollout.py": "6715be622c9992f9828a24b1d0b26d36ecb9620880bcef819823d5bdb2bc4874",
+    "game2048/rewards.py": "e5a8c00fdfe94d6c23dc299a7234775bd87117e01b5072ae67d4958d7caa15ca",
+    "game2048/config.py": "e672af8253c4c9994ca9e44af4292ff81ec50b0c831ff786d1b9e4e9be0a9310",
+    "game2048/evaluate.py": "52f6702c042864948e0e947664b99f0b52fbcf62ae6c478a29fadd6845d6aa9f",
+    "game2048/exp_schedule.py": "a31d8c68e72c18ea04517d8209914b2e7cd208810b679e648cb5c9c180e79814",
+    "game2048/budget.py": "e8785386d387b4a68b7b35d7257ddc3012ce526196d0d3a55c882238517909c4"
+  },
+  "replay_model": "base3@4890",
+  "replay_bank": 13,
+  "replay_complete_games": 5,
+  "replay_steps": 7511,
+  "notes": [
+    "Original project code and user-authored replay UI curated for portability.",
+    "Operational deployment contracts, machine paths, credentials, conversations, and raw training archives are excluded.",
+    "Fixed weights are inference exports; optimizer/environment/RNG state is not included."
+  ]
+}

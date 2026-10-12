@@ -1,0 +1,4067 @@
+{
+  "requested_episodes": 100,
+  "completed_episodes": 100,
+  "incomplete_episodes": 0,
+  "complete": true,
+  "scores": [
+    14408,
+    1072,
+    24984,
+    14108,
+    36168,
+    68972,
+    16020,
+    25216,
+    2580,
+    31712,
+    30520,
+    16000,
+    15320,
+    26892,
+    34184,
+    12072,
+    26488,
+    15104,
+    35368,
+    5320,
+    32980,
+    6448,
+    36248,
+    35904,
+    14248,
+    19808,
+    27872,
+    56572,
+    16456,
+    16204,
+    51040,
+    49416,
+    34928,
+    35668,
+    35068,
+    53624,
+    26444,
+    16032,
+    27408,
+    36676,
+    35656,
+    2336,
+    10288,
+    32484,
+    37240,
+    29780,
+    17496,
+    32852,
+    34160,
+    24792,
+    32328,
+    16152,
+    36012,
+    36076,
+    32256,
+    31328,
+    36340,
+    35792,
+    35892,
+    14148,
+    30528,
+    70376,
+    34440,
+    10272,
+    9308,
+    26604,
+    46000,
+    27204,
+    31540,
+    20484,
+    27128,
+    35860,
+    32388,
+    27304,
+    14684,
+    11456,
+    27024,
+    31860,
+    36160,
+    26792,
+    11496,
+    35068,
+    34448,
+    34788,
+    36476,
+    35708,
+    49792,
+    30944,
+    36004,
+    33720,
+    33452,
+    53084,
+    36140,
+    14332,
+    36456,
+    7428,
+    13696,
+    32492,
+    35336,
+    36344
+  ],
+  "mean_score": 28595.76,
+  "median_score": 31626.0,
+  "std_score": 13184.855042904339,
+  "min_score": 1072,
+  "max_score": 70376,
+  "score_quantiles": {
+    "0": 1072.0,
+    "10": 11492.0,
+    "25": 16191.0,
+    "50": 31626.0,
+    "75": 35809.0,
+    "90": 36732.4,
+    "100": 70376.0
+  },
+  "max_tile_counts": {
+    "64": 1,
+    "128": 1,
+    "256": 1,
+    "512": 4,
+    "1024": 22,
+    "2048": 62,
+    "4096": 9
+  },
+  "reached_tile_rates": {
+    "128": 0.99,
+    "256": 0.98,
+    "512": 0.97,
+    "1024": 0.93,
+    "2048": 0.71,
+    "4096": 0.09,
+    "8192": 0.0,
+    "16384": 0.0,
+    "32768": 0.0,
+    "65536": 0.0,
+    "131072": 0.0,
+    "262144": 0.0,
+    "524288": 0.0,
+    "1048576": 0.0
+  },
+  "win_rate_2048": 0.71,
+  "mean_length": 1465.44,
+  "median_length": 1601.5,
+  "total_steps": 146544,
+  "episodes": [
+    {
+      "env_id": 0,
+      "episode_id": 0,
+      "score": 14408,
+      "length": 835,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          10,
+          2,
+          4,
+          2
+        ],
+        [
+          9,
+          5,
+          2,
+          3
+        ],
+        [
+          7,
+          6,
+          1,
+          2
+        ],
+        [
+          5,
+          3,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 1,
+      "episode_id": 0,
+      "score": 1072,
+      "length": 128,
+      "max_exponent": 6,
+      "max_tile": 64,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          6,
+          4,
+          3,
+          1
+        ],
+        [
+          5,
+          6,
+          4,
+          2
+        ],
+        [
+          2,
+          4,
+          5,
+          3
+        ],
+        [
+          1,
+          2,
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 2,
+      "episode_id": 0,
+      "score": 24984,
+      "length": 1277,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          4,
+          3,
+          2
+        ],
+        [
+          9,
+          6,
+          5,
+          1
+        ],
+        [
+          5,
+          4,
+          3,
+          4
+        ],
+        [
+          2,
+          5,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 3,
+      "episode_id": 0,
+      "score": 14108,
+      "length": 809,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          10,
+          2,
+          4,
+          1
+        ],
+        [
+          9,
+          5,
+          3,
+          2
+        ],
+        [
+          7,
+          1,
+          2,
+          1
+        ],
+        [
+          5,
+          2,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "env_id": 4,
+      "episode_id": 0,
+      "score": 36168,
+      "length": 1873,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          3,
+          1,
+          2
+        ],
+        [
+          10,
+          4,
+          3,
+          1
+        ],
+        [
+          9,
+          6,
+          5,
+          2
+        ],
+        [
+          8,
+          7,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 5,
+      "episode_id": 0,
+      "score": 68972,
+      "length": 3093,
+      "max_exponent": 12,
+      "max_tile": 4096,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          2,
+          4,
+          2,
+          1
+        ],
+        [
+          4,
+          12,
+          9,
+          2
+        ],
+        [
+          1,
+          11,
+          5,
+          6
+        ],
+        [
+          2,
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "env_id": 6,
+      "episode_id": 0,
+      "score": 16020,
+      "length": 930,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          5,
+          4,
+          1,
+          2
+        ],
+        [
+          9,
+          10,
+          2,
+          1
+        ],
+        [
+          8,
+          6,
+          4,
+          3
+        ],
+        [
+          1,
+          2,
+          7,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 7,
+      "episode_id": 0,
+      "score": 25216,
+      "length": 1279,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          2,
+          11,
+          1
+        ],
+        [
+          2,
+          7,
+          9,
+          5
+        ],
+        [
+          4,
+          5,
+          2,
+          1
+        ],
+        [
+          2,
+          1,
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 8,
+      "episode_id": 0,
+      "score": 2580,
+      "length": 240,
+      "max_exponent": 7,
+      "max_tile": 128,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          7,
+          4,
+          2,
+          1
+        ],
+        [
+          6,
+          1,
+          5,
+          3
+        ],
+        [
+          7,
+          5,
+          4,
+          2
+        ],
+        [
+          5,
+          6,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 9,
+      "episode_id": 0,
+      "score": 31712,
+      "length": 1609,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          6,
+          2,
+          1
+        ],
+        [
+          2,
+          10,
+          4,
+          2
+        ],
+        [
+          3,
+          8,
+          11,
+          3
+        ],
+        [
+          1,
+          6,
+          5,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 10,
+      "episode_id": 0,
+      "score": 30520,
+      "length": 1534,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          3,
+          2,
+          1
+        ],
+        [
+          10,
+          1,
+          4,
+          3
+        ],
+        [
+          6,
+          2,
+          5,
+          2
+        ],
+        [
+          5,
+          7,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 11,
+      "episode_id": 0,
+      "score": 16000,
+      "length": 927,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          2,
+          10,
+          3,
+          1
+        ],
+        [
+          9,
+          6,
+          4,
+          3
+        ],
+        [
+          3,
+          8,
+          5,
+          2
+        ],
+        [
+          1,
+          7,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 12,
+      "episode_id": 0,
+      "score": 15320,
+      "length": 887,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          10,
+          3,
+          2,
+          1
+        ],
+        [
+          9,
+          1,
+          3,
+          2
+        ],
+        [
+          8,
+          4,
+          2,
+          1
+        ],
+        [
+          6,
+          5,
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 13,
+      "episode_id": 0,
+      "score": 26892,
+      "length": 1390,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          1,
+          3,
+          1
+        ],
+        [
+          9,
+          3,
+          4,
+          3
+        ],
+        [
+          8,
+          4,
+          3,
+          2
+        ],
+        [
+          7,
+          5,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 14,
+      "episode_id": 0,
+      "score": 34184,
+      "length": 1756,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          4,
+          3,
+          2
+        ],
+        [
+          10,
+          6,
+          4,
+          3
+        ],
+        [
+          2,
+          9,
+          5,
+          2
+        ],
+        [
+          6,
+          5,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 15,
+      "episode_id": 0,
+      "score": 12072,
+      "length": 735,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          5,
+          4,
+          3,
+          1
+        ],
+        [
+          10,
+          5,
+          4,
+          3
+        ],
+        [
+          8,
+          6,
+          5,
+          2
+        ],
+        [
+          6,
+          5,
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 16,
+      "episode_id": 0,
+      "score": 26488,
+      "length": 1361,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          2,
+          5,
+          1
+        ],
+        [
+          7,
+          9,
+          1,
+          4
+        ],
+        [
+          1,
+          7,
+          2,
+          1
+        ],
+        [
+          11,
+          1,
+          7,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 17,
+      "episode_id": 0,
+      "score": 15104,
+      "length": 861,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          2,
+          10,
+          2,
+          1
+        ],
+        [
+          8,
+          4,
+          3,
+          2
+        ],
+        [
+          2,
+          9,
+          5,
+          3
+        ],
+        [
+          1,
+          5,
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 18,
+      "episode_id": 0,
+      "score": 35368,
+      "length": 1815,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          1,
+          2,
+          1
+        ],
+        [
+          10,
+          2,
+          4,
+          2
+        ],
+        [
+          9,
+          6,
+          3,
+          1
+        ],
+        [
+          2,
+          8,
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "env_id": 19,
+      "episode_id": 0,
+      "score": 5320,
+      "length": 367,
+      "max_exponent": 9,
+      "max_tile": 512,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          9,
+          3,
+          1,
+          2
+        ],
+        [
+          7,
+          4,
+          3,
+          1
+        ],
+        [
+          2,
+          6,
+          5,
+          2
+        ],
+        [
+          4,
+          3,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 20,
+      "episode_id": 0,
+      "score": 32980,
+      "length": 1700,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          5,
+          3,
+          1
+        ],
+        [
+          11,
+          6,
+          4,
+          2
+        ],
+        [
+          10,
+          8,
+          7,
+          5
+        ],
+        [
+          1,
+          7,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 21,
+      "episode_id": 0,
+      "score": 6448,
+      "length": 442,
+      "max_exponent": 9,
+      "max_tile": 512,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          5,
+          4,
+          2
+        ],
+        [
+          2,
+          7,
+          3,
+          1
+        ],
+        [
+          7,
+          9,
+          4,
+          2
+        ],
+        [
+          1,
+          2,
+          7,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 22,
+      "episode_id": 0,
+      "score": 36248,
+      "length": 1879,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          4,
+          2,
+          1
+        ],
+        [
+          10,
+          6,
+          5,
+          2
+        ],
+        [
+          1,
+          9,
+          8,
+          5
+        ],
+        [
+          2,
+          7,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 23,
+      "episode_id": 0,
+      "score": 35904,
+      "length": 1855,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          11,
+          1,
+          3
+        ],
+        [
+          10,
+          7,
+          5,
+          1
+        ],
+        [
+          9,
+          8,
+          4,
+          3
+        ],
+        [
+          3,
+          1,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 24,
+      "episode_id": 0,
+      "score": 14248,
+      "length": 813,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          2,
+          6,
+          2,
+          1
+        ],
+        [
+          10,
+          5,
+          4,
+          2
+        ],
+        [
+          2,
+          9,
+          2,
+          1
+        ],
+        [
+          1,
+          7,
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 25,
+      "episode_id": 0,
+      "score": 19808,
+      "length": 1111,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          5,
+          3,
+          1
+        ],
+        [
+          10,
+          7,
+          6,
+          2
+        ],
+        [
+          6,
+          10,
+          5,
+          3
+        ],
+        [
+          1,
+          4,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 26,
+      "episode_id": 0,
+      "score": 27872,
+      "length": 1465,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          3,
+          1,
+          2
+        ],
+        [
+          11,
+          6,
+          4,
+          1
+        ],
+        [
+          9,
+          8,
+          7,
+          2
+        ],
+        [
+          1,
+          7,
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 27,
+      "episode_id": 0,
+      "score": 56572,
+      "length": 2606,
+      "max_exponent": 12,
+      "max_tile": 4096,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          12,
+          3,
+          2,
+          1
+        ],
+        [
+          10,
+          5,
+          3,
+          2
+        ],
+        [
+          8,
+          6,
+          4,
+          3
+        ],
+        [
+          7,
+          5,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 28,
+      "episode_id": 0,
+      "score": 16456,
+      "length": 983,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          6,
+          5,
+          1
+        ],
+        [
+          10,
+          5,
+          7,
+          2
+        ],
+        [
+          9,
+          6,
+          2,
+          3
+        ],
+        [
+          2,
+          8,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 29,
+      "episode_id": 0,
+      "score": 16204,
+      "length": 957,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          10,
+          3,
+          2,
+          1
+        ],
+        [
+          9,
+          4,
+          3,
+          4
+        ],
+        [
+          8,
+          6,
+          5,
+          1
+        ],
+        [
+          7,
+          5,
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 30,
+      "episode_id": 0,
+      "score": 51040,
+      "length": 2319,
+      "max_exponent": 12,
+      "max_tile": 4096,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          5,
+          4,
+          2,
+          1
+        ],
+        [
+          9,
+          6,
+          3,
+          4
+        ],
+        [
+          8,
+          12,
+          5,
+          2
+        ],
+        [
+          1,
+          6,
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 31,
+      "episode_id": 0,
+      "score": 49416,
+      "length": 2199,
+      "max_exponent": 12,
+      "max_tile": 4096,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          12,
+          7,
+          3
+        ],
+        [
+          2,
+          9,
+          3,
+          1
+        ],
+        [
+          6,
+          3,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 32,
+      "episode_id": 0,
+      "score": 34928,
+      "length": 1786,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          6,
+          3,
+          1
+        ],
+        [
+          10,
+          7,
+          4,
+          3
+        ],
+        [
+          6,
+          9,
+          6,
+          2
+        ],
+        [
+          1,
+          5,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 33,
+      "episode_id": 0,
+      "score": 35668,
+      "length": 1852,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          2,
+          5,
+          2
+        ],
+        [
+          10,
+          11,
+          4,
+          1
+        ],
+        [
+          9,
+          6,
+          5,
+          2
+        ],
+        [
+          4,
+          8,
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "env_id": 34,
+      "episode_id": 0,
+      "score": 35068,
+      "length": 1807,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          2,
+          7,
+          3,
+          1
+        ],
+        [
+          10,
+          11,
+          6,
+          3
+        ],
+        [
+          9,
+          7,
+          4,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 35,
+      "episode_id": 0,
+      "score": 53624,
+      "length": 2376,
+      "max_exponent": 12,
+      "max_tile": 4096,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          12,
+          1,
+          5,
+          3
+        ],
+        [
+          4,
+          10,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 36,
+      "episode_id": 0,
+      "score": 26444,
+      "length": 1351,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          5,
+          3,
+          2
+        ],
+        [
+          11,
+          3,
+          5,
+          3
+        ],
+        [
+          2,
+          9,
+          6,
+          2
+        ],
+        [
+          1,
+          3,
+          8,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 37,
+      "episode_id": 0,
+      "score": 16032,
+      "length": 939,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          5,
+          4,
+          2
+        ],
+        [
+          9,
+          4,
+          5,
+          4
+        ],
+        [
+          8,
+          10,
+          4,
+          1
+        ],
+        [
+          1,
+          7,
+          5,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 38,
+      "episode_id": 0,
+      "score": 27408,
+      "length": 1432,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          2,
+          11,
+          3,
+          1
+        ],
+        [
+          9,
+          6,
+          5,
+          3
+        ],
+        [
+          8,
+          7,
+          3,
+          2
+        ],
+        [
+          2,
+          6,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 39,
+      "episode_id": 0,
+      "score": 36676,
+      "length": 1908,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          11,
+          5,
+          3
+        ],
+        [
+          10,
+          7,
+          3,
+          1
+        ],
+        [
+          9,
+          8,
+          5,
+          3
+        ],
+        [
+          1,
+          2,
+          7,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 40,
+      "episode_id": 0,
+      "score": 35656,
+      "length": 1837,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          11,
+          3,
+          1
+        ],
+        [
+          10,
+          6,
+          4,
+          2
+        ],
+        [
+          9,
+          8,
+          6,
+          3
+        ],
+        [
+          1,
+          4,
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 41,
+      "episode_id": 0,
+      "score": 2336,
+      "length": 193,
+      "max_exponent": 8,
+      "max_tile": 256,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          8,
+          5,
+          4,
+          2
+        ],
+        [
+          6,
+          4,
+          2,
+          1
+        ],
+        [
+          4,
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 42,
+      "episode_id": 0,
+      "score": 10288,
+      "length": 601,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          2,
+          6,
+          4,
+          3
+        ],
+        [
+          3,
+          10,
+          3,
+          1
+        ],
+        [
+          1,
+          7,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 43,
+      "episode_id": 0,
+      "score": 32484,
+      "length": 1656,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          5,
+          3,
+          1
+        ],
+        [
+          10,
+          6,
+          5,
+          2
+        ],
+        [
+          8,
+          7,
+          6,
+          1
+        ],
+        [
+          1,
+          4,
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 44,
+      "episode_id": 0,
+      "score": 37240,
+      "length": 1934,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          1,
+          5,
+          2
+        ],
+        [
+          10,
+          5,
+          4,
+          1
+        ],
+        [
+          9,
+          8,
+          3,
+          2
+        ],
+        [
+          8,
+          6,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 45,
+      "episode_id": 0,
+      "score": 29780,
+      "length": 1481,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          3,
+          4,
+          1
+        ],
+        [
+          10,
+          4,
+          5,
+          4
+        ],
+        [
+          1,
+          6,
+          3,
+          2
+        ],
+        [
+          2,
+          1,
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 46,
+      "episode_id": 0,
+      "score": 17496,
+      "length": 1053,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          7,
+          4,
+          7,
+          1
+        ],
+        [
+          8,
+          6,
+          4,
+          2
+        ],
+        [
+          10,
+          7,
+          3,
+          4
+        ],
+        [
+          1,
+          9,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 47,
+      "episode_id": 0,
+      "score": 32852,
+      "length": 1685,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          2,
+          4,
+          2
+        ],
+        [
+          10,
+          7,
+          2,
+          3
+        ],
+        [
+          8,
+          11,
+          3,
+          2
+        ],
+        [
+          6,
+          7,
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 48,
+      "episode_id": 0,
+      "score": 34160,
+      "length": 1736,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          2,
+          4,
+          1
+        ],
+        [
+          10,
+          11,
+          5,
+          2
+        ],
+        [
+          9,
+          7,
+          4,
+          3
+        ],
+        [
+          3,
+          1,
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 49,
+      "episode_id": 0,
+      "score": 24792,
+      "length": 1246,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          4,
+          1,
+          3,
+          2
+        ],
+        [
+          11,
+          6,
+          4,
+          1
+        ],
+        [
+          9,
+          5,
+          3,
+          2
+        ],
+        [
+          5,
+          4,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 50,
+      "episode_id": 0,
+      "score": 32328,
+      "length": 1660,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          4,
+          3,
+          2
+        ],
+        [
+          10,
+          5,
+          4,
+          3
+        ],
+        [
+          8,
+          6,
+          2,
+          1
+        ],
+        [
+          5,
+          7,
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 51,
+      "episode_id": 0,
+      "score": 16152,
+      "length": 956,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          10,
+          3,
+          1,
+          2
+        ],
+        [
+          9,
+          4,
+          2,
+          1
+        ],
+        [
+          8,
+          5,
+          3,
+          4
+        ],
+        [
+          7,
+          6,
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "env_id": 52,
+      "episode_id": 0,
+      "score": 36012,
+      "length": 1847,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          11,
+          2,
+          1
+        ],
+        [
+          9,
+          10,
+          4,
+          3
+        ],
+        [
+          8,
+          4,
+          3,
+          1
+        ],
+        [
+          7,
+          6,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 53,
+      "episode_id": 0,
+      "score": 36076,
+      "length": 1851,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          11,
+          5,
+          2
+        ],
+        [
+          3,
+          7,
+          6,
+          3
+        ],
+        [
+          10,
+          8,
+          4,
+          1
+        ],
+        [
+          9,
+          2,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 54,
+      "episode_id": 0,
+      "score": 32256,
+      "length": 1643,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          5,
+          6,
+          3,
+          1
+        ],
+        [
+          10,
+          7,
+          4,
+          2
+        ],
+        [
+          8,
+          11,
+          5,
+          3
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 55,
+      "episode_id": 0,
+      "score": 31328,
+      "length": 1578,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          2,
+          11,
+          1,
+          2
+        ],
+        [
+          10,
+          5,
+          2,
+          1
+        ],
+        [
+          2,
+          8,
+          5,
+          2
+        ],
+        [
+          1,
+          5,
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "env_id": 56,
+      "episode_id": 0,
+      "score": 36340,
+      "length": 1873,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          11,
+          2,
+          1
+        ],
+        [
+          10,
+          7,
+          6,
+          2
+        ],
+        [
+          9,
+          8,
+          5,
+          3
+        ],
+        [
+          6,
+          3,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 57,
+      "episode_id": 0,
+      "score": 35792,
+      "length": 1849,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          2,
+          5,
+          2
+        ],
+        [
+          10,
+          6,
+          2,
+          1
+        ],
+        [
+          9,
+          8,
+          5,
+          3
+        ],
+        [
+          2,
+          1,
+          6,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 58,
+      "episode_id": 0,
+      "score": 35892,
+      "length": 1839,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          11,
+          2,
+          1
+        ],
+        [
+          10,
+          9,
+          7,
+          4
+        ],
+        [
+          2,
+          8,
+          5,
+          2
+        ],
+        [
+          1,
+          5,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 59,
+      "episode_id": 0,
+      "score": 14148,
+      "length": 814,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          7,
+          3,
+          2
+        ],
+        [
+          10,
+          4,
+          2,
+          1
+        ],
+        [
+          1,
+          9,
+          5,
+          3
+        ],
+        [
+          2,
+          5,
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 60,
+      "episode_id": 0,
+      "score": 30528,
+      "length": 1533,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          2,
+          11,
+          3,
+          2
+        ],
+        [
+          10,
+          5,
+          2,
+          1
+        ],
+        [
+          2,
+          7,
+          6,
+          4
+        ],
+        [
+          1,
+          5,
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 61,
+      "episode_id": 0,
+      "score": 70376,
+      "length": 3209,
+      "max_exponent": 12,
+      "max_tile": 4096,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          2,
+          12,
+          6,
+          1
+        ],
+        [
+          11,
+          6,
+          5,
+          2
+        ],
+        [
+          9,
+          7,
+          4,
+          3
+        ],
+        [
+          1,
+          6,
+          5,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 62,
+      "episode_id": 0,
+      "score": 34440,
+      "length": 1759,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          2,
+          1,
+          2
+        ],
+        [
+          10,
+          4,
+          3,
+          1
+        ],
+        [
+          9,
+          5,
+          4,
+          2
+        ],
+        [
+          7,
+          6,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 63,
+      "episode_id": 0,
+      "score": 10272,
+      "length": 593,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          10,
+          1,
+          3,
+          1
+        ],
+        [
+          7,
+          4,
+          1,
+          2
+        ],
+        [
+          6,
+          2,
+          4,
+          3
+        ],
+        [
+          3,
+          4,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 64,
+      "episode_id": 0,
+      "score": 9308,
+      "length": 610,
+      "max_exponent": 9,
+      "max_tile": 512,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          6,
+          5,
+          2,
+          1
+        ],
+        [
+          9,
+          6,
+          5,
+          2
+        ],
+        [
+          4,
+          9,
+          4,
+          3
+        ],
+        [
+          2,
+          3,
+          6,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 65,
+      "episode_id": 0,
+      "score": 26604,
+      "length": 1361,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          6,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          1
+        ],
+        [
+          9,
+          11,
+          6,
+          2
+        ],
+        [
+          1,
+          8,
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 66,
+      "episode_id": 0,
+      "score": 46000,
+      "length": 2024,
+      "max_exponent": 12,
+      "max_tile": 4096,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          12,
+          6,
+          3,
+          1
+        ],
+        [
+          7,
+          3,
+          4,
+          2
+        ],
+        [
+          6,
+          5,
+          2,
+          1
+        ],
+        [
+          5,
+          1,
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 67,
+      "episode_id": 0,
+      "score": 27204,
+      "length": 1420,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          2,
+          11,
+          3,
+          1
+        ],
+        [
+          9,
+          8,
+          4,
+          2
+        ],
+        [
+          3,
+          7,
+          5,
+          3
+        ],
+        [
+          1,
+          6,
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 68,
+      "episode_id": 0,
+      "score": 31540,
+      "length": 1594,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          4,
+          1,
+          2
+        ],
+        [
+          11,
+          10,
+          3,
+          4
+        ],
+        [
+          2,
+          8,
+          6,
+          2
+        ],
+        [
+          5,
+          2,
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 69,
+      "episode_id": 0,
+      "score": 20484,
+      "length": 990,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          4,
+          2,
+          1
+        ],
+        [
+          5,
+          2,
+          3,
+          2
+        ],
+        [
+          3,
+          5,
+          4,
+          3
+        ],
+        [
+          1,
+          3,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 70,
+      "episode_id": 0,
+      "score": 27128,
+      "length": 1402,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          3,
+          2,
+          1
+        ],
+        [
+          9,
+          4,
+          3,
+          2
+        ],
+        [
+          8,
+          5,
+          6,
+          4
+        ],
+        [
+          1,
+          7,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 71,
+      "episode_id": 0,
+      "score": 35860,
+      "length": 1841,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          11,
+          4,
+          1
+        ],
+        [
+          10,
+          4,
+          5,
+          3
+        ],
+        [
+          9,
+          7,
+          8,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "env_id": 72,
+      "episode_id": 0,
+      "score": 32388,
+      "length": 1661,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          6,
+          4,
+          2,
+          1
+        ],
+        [
+          10,
+          6,
+          3,
+          2
+        ],
+        [
+          8,
+          11,
+          4,
+          3
+        ],
+        [
+          2,
+          7,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 73,
+      "episode_id": 0,
+      "score": 27304,
+      "length": 1434,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          9,
+          6,
+          4
+        ],
+        [
+          8,
+          11,
+          5,
+          1
+        ],
+        [
+          1,
+          7,
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 74,
+      "episode_id": 0,
+      "score": 14684,
+      "length": 854,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          6,
+          3,
+          1
+        ],
+        [
+          10,
+          5,
+          4,
+          2
+        ],
+        [
+          9,
+          6,
+          5,
+          3
+        ],
+        [
+          1,
+          7,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 75,
+      "episode_id": 0,
+      "score": 11456,
+      "length": 672,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          10,
+          1,
+          3,
+          2
+        ],
+        [
+          8,
+          3,
+          4,
+          1
+        ],
+        [
+          6,
+          5,
+          3,
+          2
+        ],
+        [
+          5,
+          3,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 76,
+      "episode_id": 0,
+      "score": 27024,
+      "length": 1404,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          5,
+          2,
+          1,
+          2
+        ],
+        [
+          11,
+          8,
+          4,
+          3
+        ],
+        [
+          9,
+          4,
+          5,
+          2
+        ],
+        [
+          1,
+          7,
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 77,
+      "episode_id": 0,
+      "score": 31860,
+      "length": 1624,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          4,
+          1,
+          2
+        ],
+        [
+          10,
+          5,
+          2,
+          1
+        ],
+        [
+          8,
+          6,
+          3,
+          2
+        ],
+        [
+          6,
+          5,
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "env_id": 78,
+      "episode_id": 0,
+      "score": 36160,
+      "length": 1872,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          11,
+          2,
+          1
+        ],
+        [
+          10,
+          7,
+          3,
+          2
+        ],
+        [
+          9,
+          8,
+          6,
+          3
+        ],
+        [
+          2,
+          4,
+          5,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 79,
+      "episode_id": 0,
+      "score": 26792,
+      "length": 1377,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          4,
+          1,
+          3,
+          1
+        ],
+        [
+          9,
+          3,
+          4,
+          2
+        ],
+        [
+          8,
+          11,
+          3,
+          1
+        ],
+        [
+          2,
+          7,
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "env_id": 80,
+      "episode_id": 0,
+      "score": 11496,
+      "length": 678,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          2,
+          10,
+          3,
+          2
+        ],
+        [
+          3,
+          6,
+          8,
+          5
+        ],
+        [
+          5,
+          1,
+          4,
+          3
+        ],
+        [
+          1,
+          4,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 81,
+      "episode_id": 0,
+      "score": 35068,
+      "length": 1772,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          4,
+          2,
+          1
+        ],
+        [
+          10,
+          3,
+          4,
+          2
+        ],
+        [
+          9,
+          5,
+          1,
+          3
+        ],
+        [
+          1,
+          8,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 82,
+      "episode_id": 0,
+      "score": 34448,
+      "length": 1763,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          3,
+          2,
+          1
+        ],
+        [
+          10,
+          5,
+          3,
+          2
+        ],
+        [
+          9,
+          6,
+          4,
+          3
+        ],
+        [
+          7,
+          3,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 83,
+      "episode_id": 0,
+      "score": 34788,
+      "length": 1779,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          11,
+          3,
+          1
+        ],
+        [
+          10,
+          6,
+          4,
+          3
+        ],
+        [
+          9,
+          7,
+          5,
+          2
+        ],
+        [
+          6,
+          5,
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 84,
+      "episode_id": 0,
+      "score": 36476,
+      "length": 1871,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          7,
+          2,
+          1
+        ],
+        [
+          10,
+          8,
+          3,
+          2
+        ],
+        [
+          9,
+          7,
+          5,
+          3
+        ],
+        [
+          1,
+          4,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 85,
+      "episode_id": 0,
+      "score": 35708,
+      "length": 1838,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          5,
+          1,
+          2
+        ],
+        [
+          10,
+          6,
+          3,
+          4
+        ],
+        [
+          9,
+          8,
+          6,
+          2
+        ],
+        [
+          1,
+          3,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "env_id": 86,
+      "episode_id": 0,
+      "score": 49792,
+      "length": 2251,
+      "max_exponent": 12,
+      "max_tile": 4096,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          12,
+          3,
+          2
+        ],
+        [
+          9,
+          5,
+          4,
+          3
+        ],
+        [
+          7,
+          6,
+          3,
+          1
+        ],
+        [
+          5,
+          4,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 87,
+      "episode_id": 0,
+      "score": 30944,
+      "length": 1571,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          5,
+          4,
+          2,
+          1
+        ],
+        [
+          10,
+          6,
+          3,
+          2
+        ],
+        [
+          7,
+          11,
+          5,
+          1
+        ],
+        [
+          2,
+          5,
+          6,
+          4
+        ]
+      ]
+    },
+    {
+      "env_id": 88,
+      "episode_id": 0,
+      "score": 36004,
+      "length": 1850,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          11,
+          4,
+          1
+        ],
+        [
+          10,
+          7,
+          3,
+          2
+        ],
+        [
+          9,
+          8,
+          6,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "env_id": 89,
+      "episode_id": 0,
+      "score": 33720,
+      "length": 1707,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          1,
+          11,
+          2,
+          1
+        ],
+        [
+          10,
+          6,
+          4,
+          3
+        ],
+        [
+          9,
+          4,
+          1,
+          2
+        ],
+        [
+          2,
+          5,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 90,
+      "episode_id": 0,
+      "score": 33452,
+      "length": 1724,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          2,
+          8,
+          2,
+          1
+        ],
+        [
+          11,
+          6,
+          5,
+          2
+        ],
+        [
+          10,
+          8,
+          3,
+          1
+        ],
+        [
+          6,
+          4,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 91,
+      "episode_id": 0,
+      "score": 53084,
+      "length": 2439,
+      "max_exponent": 12,
+      "max_tile": 4096,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          6,
+          1,
+          3,
+          2
+        ],
+        [
+          12,
+          5,
+          9,
+          4
+        ],
+        [
+          2,
+          9,
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 92,
+      "episode_id": 0,
+      "score": 36140,
+      "length": 1867,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          3,
+          4,
+          1
+        ],
+        [
+          10,
+          7,
+          5,
+          2
+        ],
+        [
+          9,
+          8,
+          6,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "env_id": 93,
+      "episode_id": 0,
+      "score": 14332,
+      "length": 822,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          10,
+          2,
+          1,
+          2
+        ],
+        [
+          1,
+          6,
+          2,
+          1
+        ],
+        [
+          9,
+          5,
+          3,
+          2
+        ],
+        [
+          7,
+          2,
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 94,
+      "episode_id": 0,
+      "score": 36456,
+      "length": 1896,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          11,
+          5,
+          2,
+          1
+        ],
+        [
+          10,
+          6,
+          3,
+          2
+        ],
+        [
+          9,
+          7,
+          6,
+          3
+        ],
+        [
+          8,
+          4,
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "env_id": 95,
+      "episode_id": 0,
+      "score": 7428,
+      "length": 523,
+      "max_exponent": 9,
+      "max_tile": 512,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          5,
+          4,
+          2,
+          1
+        ],
+        [
+          8,
+          5,
+          3,
+          2
+        ],
+        [
+          7,
+          9,
+          5,
+          3
+        ],
+        [
+          6,
+          5,
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 96,
+      "episode_id": 0,
+      "score": 13696,
+      "length": 790,
+      "max_exponent": 10,
+      "max_tile": 1024,
+      "reached_2048": false,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          10,
+          4,
+          3,
+          2
+        ],
+        [
+          6,
+          9,
+          5,
+          3
+        ],
+        [
+          4,
+          3,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 97,
+      "episode_id": 0,
+      "score": 32492,
+      "length": 1674,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          10,
+          1,
+          3,
+          2
+        ],
+        [
+          8,
+          5,
+          4,
+          3
+        ],
+        [
+          1,
+          6,
+          3,
+          1
+        ],
+        [
+          2,
+          11,
+          7,
+          6
+        ]
+      ]
+    },
+    {
+      "env_id": 98,
+      "episode_id": 0,
+      "score": 35336,
+      "length": 1808,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          2,
+          1,
+          2,
+          1
+        ],
+        [
+          10,
+          11,
+          4,
+          2
+        ],
+        [
+          9,
+          8,
+          6,
+          3
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "env_id": 99,
+      "episode_id": 0,
+      "score": 36344,
+      "length": 1869,
+      "max_exponent": 11,
+      "max_tile": 2048,
+      "reached_2048": true,
+      "terminated": true,
+      "truncated": false,
+      "complete": true,
+      "status": "complete",
+      "final_board": [
+        [
+          10,
+          2,
+          1,
+          11
+        ],
+        [
+          9,
+          7,
+          3,
+          1
+        ],
+        [
+          6,
+          8,
+          5,
+          3
+        ],
+        [
+          1,
+          4,
+          6,
+          2
+        ]
+      ]
+    }
+  ],
+  "seed": 1,
+  "split_id": 13,
+  "split": "test",
+  "test_bank": 13,
+  "mode": "greedy",
+  "policy": "model",
+  "action_selection": "greedy",
+  "max_episode_steps": null,
+  "interrupted": false,
+  "interruption_reason": null,
+  "iteration": 4890,
+  "selected_iteration": 4890,
+  "selected_checkpoint": "selected_test",
+  "selected_checkpoint_sha256": "bd861723180dd23f0a9bd3b57e675fbfcbb1b3dd49c3da187792d5760457bab1"
+}

@@ -1,0 +1,10617 @@
+{
+  "schema_version": 1,
+  "game": "2048",
+  "board_representation": "exponents",
+  "action_names": [
+    "up",
+    "right",
+    "down",
+    "left"
+  ],
+  "evaluation": {
+    "seed": 1,
+    "split_id": 13,
+    "split": "test",
+    "test_bank": 13,
+    "mode": "greedy",
+    "policy": "model",
+    "action_selection": "greedy",
+    "max_episode_steps": null
+  },
+  "env_id": 1,
+  "episode_id": 0,
+  "seed_components": [
+    1,
+    13,
+    1,
+    0
+  ],
+  "seed_scheme": "numpy.random.SeedSequence([root_seed,split_id,env_id,episode_id])",
+  "initial_board": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "initial_mask": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "initial_score": 0,
+  "steps": [
+    {
+      "step": 1,
+      "board_before": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.31700846552848816,
+        0.29170235991477966,
+        0.008210641331970692,
+        0.38307851552963257
+      ],
+      "chosen_probability": 0.38307851552963257,
+      "value": 3.955939292907715,
+      "raw_reward": 0,
+      "score": 0,
+      "spawn": {
+        "position": 5,
+        "row": 1,
+        "column": 1,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 2,
+      "board_before": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.36468732357025146,
+        0.17450673878192902,
+        0.0004489281272981316,
+        0.46035701036453247
+      ],
+      "chosen_probability": 0.46035701036453247,
+      "value": 4.043125152587891,
+      "raw_reward": 4,
+      "score": 4,
+      "spawn": {
+        "position": 15,
+        "row": 3,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 3,
+      "board_before": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.40717241168022156,
+        0.06841372698545456,
+        0.02390785701572895,
+        0.5005060434341431
+      ],
+      "chosen_probability": 0.5005060434341431,
+      "value": 3.9364428520202637,
+      "raw_reward": 0,
+      "score": 4,
+      "spawn": {
+        "position": 1,
+        "row": 0,
+        "column": 1,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 4,
+      "board_before": [
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          2,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.9722713828086853,
+        0.002888015704229474,
+        0.007785913068801165,
+        0.017054583877325058
+      ],
+      "chosen_probability": 0.9722713828086853,
+      "value": 3.952442169189453,
+      "raw_reward": 4,
+      "score": 8,
+      "spawn": {
+        "position": 2,
+        "row": 0,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 5,
+      "board_before": [
+        [
+          2,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.2752392590045929,
+        0.001346300938166678,
+        0.009587930515408516,
+        0.7138265371322632
+      ],
+      "chosen_probability": 0.7138265371322632,
+      "value": 3.941444158554077,
+      "raw_reward": 4,
+      "score": 12,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 2,
+        "tile": 4
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 6,
+      "board_before": [
+        [
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.2992844581604004,
+        0.0014375182799994946,
+        0.0034379097633063793,
+        0.6958401203155518
+      ],
+      "chosen_probability": 0.6958401203155518,
+      "value": 3.9449214935302734,
+      "raw_reward": 16,
+      "score": 28,
+      "spawn": {
+        "position": 1,
+        "row": 0,
+        "column": 1,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 7,
+      "board_before": [
+        [
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.9950516819953918,
+        0.0011473248014226556,
+        0.0038010776042938232,
+        0.0
+      ],
+      "chosen_probability": 0.9950516819953918,
+      "value": 3.94421124458313,
+      "raw_reward": 16,
+      "score": 44,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 8,
+      "board_before": [
+        [
+          4,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.5602957010269165,
+        0.022937750443816185,
+        0.0016968291020020843,
+        0.41506972908973694
+      ],
+      "chosen_probability": 0.5602957010269165,
+      "value": 3.946917772293091,
+      "raw_reward": 0,
+      "score": 44,
+      "spawn": {
+        "position": 13,
+        "row": 3,
+        "column": 1,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 9,
+      "board_before": [
+        [
+          4,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.5503947138786316,
+        0.018098216503858566,
+        0.004098988603800535,
+        0.42740797996520996
+      ],
+      "chosen_probability": 0.5503947138786316,
+      "value": 3.9302124977111816,
+      "raw_reward": 4,
+      "score": 48,
+      "spawn": {
+        "position": 12,
+        "row": 3,
+        "column": 0,
+        "exponent": 2,
+        "tile": 4
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 10,
+      "board_before": [
+        [
+          4,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.7314772605895996,
+        0.00937645323574543,
+        0.018946433439850807,
+        0.24019989371299744
+      ],
+      "chosen_probability": 0.7314772605895996,
+      "value": 3.9059884548187256,
+      "raw_reward": 0,
+      "score": 48,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 11,
+      "board_before": [
+        [
+          4,
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.5064610242843628,
+        0.003305445658043027,
+        0.0014356488827615976,
+        0.4887978732585907
+      ],
+      "chosen_probability": 0.5064610242843628,
+      "value": 3.9554548263549805,
+      "raw_reward": 4,
+      "score": 52,
+      "spawn": {
+        "position": 2,
+        "row": 0,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 12,
+      "board_before": [
+        [
+          4,
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          1,
+          2
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "action": 2,
+      "action_name": "down",
+      "probabilities": [
+        0.0,
+        0.3394385576248169,
+        0.6605614423751831,
+        0.0
+      ],
+      "chosen_probability": 0.6605614423751831,
+      "value": 3.947094678878784,
+      "raw_reward": 0,
+      "score": 52,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 13,
+      "board_before": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          1,
+          2
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.9969033598899841,
+        0.0002880753600038588,
+        0.0020116206724196672,
+        0.0007969778962433338
+      ],
+      "chosen_probability": 0.9969033598899841,
+      "value": 4.064085006713867,
+      "raw_reward": 0,
+      "score": 52,
+      "spawn": {
+        "position": 5,
+        "row": 1,
+        "column": 1,
+        "exponent": 2,
+        "tile": 4
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 14,
+      "board_before": [
+        [
+          4,
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          2,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.450081467628479,
+        0.0016701407730579376,
+        4.500325667322613e-05,
+        0.5482033491134644
+      ],
+      "chosen_probability": 0.5482033491134644,
+      "value": 3.9779844284057617,
+      "raw_reward": 12,
+      "score": 64,
+      "spawn": {
+        "position": 11,
+        "row": 2,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 15,
+      "board_before": [
+        [
+          4,
+          2,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.39236897230148315,
+        7.879103213781491e-05,
+        4.0955499571282417e-05,
+        0.6075112819671631
+      ],
+      "chosen_probability": 0.6075112819671631,
+      "value": 3.9567108154296875,
+      "raw_reward": 8,
+      "score": 72,
+      "spawn": {
+        "position": 11,
+        "row": 2,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 16,
+      "board_before": [
+        [
+          4,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.32516512274742126,
+        6.943940388737246e-05,
+        0.00031601195223629475,
+        0.6744493842124939
+      ],
+      "chosen_probability": 0.6744493842124939,
+      "value": 3.9466097354888916,
+      "raw_reward": 4,
+      "score": 76,
+      "spawn": {
+        "position": 11,
+        "row": 2,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 17,
+      "board_before": [
+        [
+          4,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.5129164457321167,
+        6.139822653494775e-05,
+        0.0003020190342795104,
+        0.4867202043533325
+      ],
+      "chosen_probability": 0.5129164457321167,
+      "value": 3.9771616458892822,
+      "raw_reward": 0,
+      "score": 76,
+      "spawn": {
+        "position": 12,
+        "row": 3,
+        "column": 0,
+        "exponent": 2,
+        "tile": 4
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 18,
+      "board_before": [
+        [
+          4,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.6197937726974487,
+        3.827661566901952e-05,
+        0.004557844717055559,
+        0.3756101131439209
+      ],
+      "chosen_probability": 0.6197937726974487,
+      "value": 3.9874870777130127,
+      "raw_reward": 8,
+      "score": 84,
+      "spawn": {
+        "position": 6,
+        "row": 1,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 19,
+      "board_before": [
+        [
+          4,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.25734394788742065,
+        8.195737609639764e-05,
+        9.749167656991631e-05,
+        0.7424766421318054
+      ],
+      "chosen_probability": 0.7424766421318054,
+      "value": 3.984234094619751,
+      "raw_reward": 0,
+      "score": 84,
+      "spawn": {
+        "position": 9,
+        "row": 2,
+        "column": 1,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 20,
+      "board_before": [
+        [
+          4,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.9998605251312256,
+        2.16044772969326e-05,
+        0.00011792466830229387,
+        0.0
+      ],
+      "chosen_probability": 0.9998605251312256,
+      "value": 3.9902310371398926,
+      "raw_reward": 20,
+      "score": 104,
+      "spawn": {
+        "position": 8,
+        "row": 2,
+        "column": 0,
+        "exponent": 2,
+        "tile": 4
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 21,
+      "board_before": [
+        [
+          4,
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.9996947050094604,
+        1.3635899449582212e-05,
+        0.00029169549816288054,
+        0.0
+      ],
+      "chosen_probability": 0.9996947050094604,
+      "value": 3.9981706142425537,
+      "raw_reward": 32,
+      "score": 136,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 22,
+      "board_before": [
+        [
+          5,
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.4240320026874542,
+        0.000575571320950985,
+        1.7580538042238913e-05,
+        0.5753748416900635
+      ],
+      "chosen_probability": 0.5753748416900635,
+      "value": 3.9850475788116455,
+      "raw_reward": 8,
+      "score": 144,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 23,
+      "board_before": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          0,
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "action": 1,
+      "action_name": "right",
+      "probabilities": [
+        0.0,
+        0.8306292295455933,
+        0.16937069594860077,
+        0.0
+      ],
+      "chosen_probability": 0.8306292295455933,
+      "value": 3.985344886779785,
+      "raw_reward": 0,
+      "score": 144,
+      "spawn": {
+        "position": 9,
+        "row": 2,
+        "column": 1,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 24,
+      "board_before": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          0,
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.18714208900928497,
+        0.009116776287555695,
+        9.853431038209237e-06,
+        0.8037312030792236
+      ],
+      "chosen_probability": 0.8037312030792236,
+      "value": 3.966320037841797,
+      "raw_reward": 4,
+      "score": 148,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 25,
+      "board_before": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.41704654693603516,
+        0.0016374788247048855,
+        0.0002868882438633591,
+        0.5810291171073914
+      ],
+      "chosen_probability": 0.5810291171073914,
+      "value": 4.032688140869141,
+      "raw_reward": 4,
+      "score": 152,
+      "spawn": {
+        "position": 6,
+        "row": 1,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 26,
+      "board_before": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "action": 1,
+      "action_name": "right",
+      "probabilities": [
+        0.0,
+        0.7005836963653564,
+        0.2994163930416107,
+        0.0
+      ],
+      "chosen_probability": 0.7005836963653564,
+      "value": 4.012512683868408,
+      "raw_reward": 0,
+      "score": 152,
+      "spawn": {
+        "position": 13,
+        "row": 3,
+        "column": 1,
+        "exponent": 2,
+        "tile": 4
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 27,
+      "board_before": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.10324835777282715,
+        0.013185285031795502,
+        1.227964457939379e-05,
+        0.8835541605949402
+      ],
+      "chosen_probability": 0.8835541605949402,
+      "value": 3.9515676498413086,
+      "raw_reward": 0,
+      "score": 152,
+      "spawn": {
+        "position": 9,
+        "row": 2,
+        "column": 1,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 28,
+      "board_before": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.9942519664764404,
+        6.643734377576038e-05,
+        0.005681606475263834,
+        0.0
+      ],
+      "chosen_probability": 0.9942519664764404,
+      "value": 4.020105838775635,
+      "raw_reward": 8,
+      "score": 160,
+      "spawn": {
+        "position": 15,
+        "row": 3,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 29,
+      "board_before": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.28554224967956543,
+        6.524012133013457e-05,
+        1.6472326933580916e-06,
+        0.7143908739089966
+      ],
+      "chosen_probability": 0.7143908739089966,
+      "value": 4.032129287719727,
+      "raw_reward": 0,
+      "score": 160,
+      "spawn": {
+        "position": 15,
+        "row": 3,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 30,
+      "board_before": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.2872304618358612,
+        5.246717410045676e-05,
+        0.0011002696119248867,
+        0.7116168737411499
+      ],
+      "chosen_probability": 0.7116168737411499,
+      "value": 4.0359296798706055,
+      "raw_reward": 4,
+      "score": 164,
+      "spawn": {
+        "position": 10,
+        "row": 2,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 31,
+      "board_before": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.3772839307785034,
+        7.822191037121229e-06,
+        0.0010633955243974924,
+        0.6216447949409485
+      ],
+      "chosen_probability": 0.6216447949409485,
+      "value": 4.050440788269043,
+      "raw_reward": 4,
+      "score": 168,
+      "spawn": {
+        "position": 10,
+        "row": 2,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 32,
+      "board_before": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          4,
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.9987812638282776,
+        2.434752786939498e-05,
+        0.0011944110738113523,
+        0.0
+      ],
+      "chosen_probability": 0.9987812638282776,
+      "value": 4.056988716125488,
+      "raw_reward": 28,
+      "score": 196,
+      "spawn": {
+        "position": 13,
+        "row": 3,
+        "column": 1,
+        "exponent": 2,
+        "tile": 4
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 33,
+      "board_before": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          4,
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          4,
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.41233646869659424,
+        0.000137969313072972,
+        9.729179873829708e-05,
+        0.5874282717704773
+      ],
+      "chosen_probability": 0.5874282717704773,
+      "value": 4.076838493347168,
+      "raw_reward": 0,
+      "score": 196,
+      "spawn": {
+        "position": 10,
+        "row": 2,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 34,
+      "board_before": [
+        [
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          4,
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          4,
+          3,
+          1
+        ],
+        [
+          4,
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.6239059567451477,
+        4.188796447124332e-05,
+        0.0026490374002605677,
+        0.37340307235717773
+      ],
+      "chosen_probability": 0.6239059567451477,
+      "value": 4.074728965759277,
+      "raw_reward": 32,
+      "score": 228,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 2,
+        "tile": 4
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 35,
+      "board_before": [
+        [
+          5,
+          4,
+          3,
+          1
+        ],
+        [
+          4,
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          4,
+          3,
+          1
+        ],
+        [
+          4,
+          1,
+          2,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.0,
+        0.00044228037586435676,
+        0.00017398942145518959,
+        0.999383807182312
+      ],
+      "chosen_probability": 0.999383807182312,
+      "value": 4.044928550720215,
+      "raw_reward": 0,
+      "score": 228,
+      "spawn": {
+        "position": 12,
+        "row": 3,
+        "column": 0,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 36,
+      "board_before": [
+        [
+          5,
+          4,
+          3,
+          1
+        ],
+        [
+          4,
+          1,
+          2,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          4,
+          3,
+          1
+        ],
+        [
+          1,
+          1,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "action": 2,
+      "action_name": "down",
+      "probabilities": [
+        0.0,
+        0.0009136316366493702,
+        0.9990863800048828,
+        0.0
+      ],
+      "chosen_probability": 0.9990863800048828,
+      "value": 4.077467918395996,
+      "raw_reward": 0,
+      "score": 228,
+      "spawn": {
+        "position": 11,
+        "row": 2,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 37,
+      "board_before": [
+        [
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          4,
+          3,
+          1
+        ],
+        [
+          1,
+          1,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          4,
+          3,
+          2
+        ],
+        [
+          4,
+          1,
+          2,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.9604616761207581,
+        8.329378431426449e-08,
+        0.00925317220389843,
+        0.030284985899925232
+      ],
+      "chosen_probability": 0.9604616761207581,
+      "value": 4.098194122314453,
+      "raw_reward": 4,
+      "score": 232,
+      "spawn": {
+        "position": 13,
+        "row": 3,
+        "column": 1,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 38,
+      "board_before": [
+        [
+          5,
+          4,
+          3,
+          2
+        ],
+        [
+          4,
+          1,
+          2,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          4,
+          3,
+          2
+        ],
+        [
+          4,
+          2,
+          2,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.5948845148086548,
+        4.874532805843046e-06,
+        0.08993268758058548,
+        0.31517791748046875
+      ],
+      "chosen_probability": 0.5948845148086548,
+      "value": 4.103526592254639,
+      "raw_reward": 4,
+      "score": 236,
+      "spawn": {
+        "position": 11,
+        "row": 2,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 39,
+      "board_before": [
+        [
+          5,
+          4,
+          3,
+          2
+        ],
+        [
+          4,
+          2,
+          2,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          4,
+          3,
+          2
+        ],
+        [
+          4,
+          2,
+          2,
+          1
+        ],
+        [
+          3,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.5419057011604309,
+        0.0007663844153285027,
+        0.05019036680459976,
+        0.40713757276535034
+      ],
+      "chosen_probability": 0.5419057011604309,
+      "value": 4.068406581878662,
+      "raw_reward": 0,
+      "score": 236,
+      "spawn": {
+        "position": 11,
+        "row": 2,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 40,
+      "board_before": [
+        [
+          5,
+          4,
+          3,
+          2
+        ],
+        [
+          4,
+          2,
+          2,
+          1
+        ],
+        [
+          3,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          4,
+          3,
+          2
+        ],
+        [
+          4,
+          2,
+          2,
+          2
+        ],
+        [
+          3,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.539738655090332,
+        0.0052940091118216515,
+        0.03149234876036644,
+        0.4234750270843506
+      ],
+      "chosen_probability": 0.539738655090332,
+      "value": 4.070013523101807,
+      "raw_reward": 4,
+      "score": 240,
+      "spawn": {
+        "position": 11,
+        "row": 2,
+        "column": 3,
+        "exponent": 2,
+        "tile": 4
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 41,
+      "board_before": [
+        [
+          5,
+          4,
+          3,
+          2
+        ],
+        [
+          4,
+          2,
+          2,
+          2
+        ],
+        [
+          3,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          4,
+          3,
+          2
+        ],
+        [
+          4,
+          3,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.3348274528980255,
+        0.00133955804631114,
+        0.052136532962322235,
+        0.6116964221000671
+      ],
+      "chosen_probability": 0.6116964221000671,
+      "value": 4.09944486618042,
+      "raw_reward": 8,
+      "score": 248,
+      "spawn": {
+        "position": 10,
+        "row": 2,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 42,
+      "board_before": [
+        [
+          5,
+          4,
+          3,
+          2
+        ],
+        [
+          4,
+          3,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          4,
+          3,
+          0
+        ],
+        [
+          3,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          2
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "action": 2,
+      "action_name": "down",
+      "probabilities": [
+        0.0,
+        0.006934394594281912,
+        0.993065595626831,
+        0.0
+      ],
+      "chosen_probability": 0.993065595626831,
+      "value": 4.087701320648193,
+      "raw_reward": 0,
+      "score": 248,
+      "spawn": {
+        "position": 11,
+        "row": 2,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 43,
+      "board_before": [
+        [
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          4,
+          3,
+          0
+        ],
+        [
+          3,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          2
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          4,
+          3,
+          1
+        ],
+        [
+          4,
+          3,
+          2,
+          2
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.9431989789009094,
+        3.069575882364006e-07,
+        0.0,
+        0.056800760328769684
+      ],
+      "chosen_probability": 0.9431989789009094,
+      "value": 4.106801986694336,
+      "raw_reward": 0,
+      "score": 248,
+      "spawn": {
+        "position": 14,
+        "row": 3,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 44,
+      "board_before": [
+        [
+          5,
+          4,
+          3,
+          1
+        ],
+        [
+          4,
+          3,
+          2,
+          2
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          4,
+          3,
+          1
+        ],
+        [
+          4,
+          3,
+          3,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.3405260741710663,
+        0.00044022451038472354,
+        0.022841064259409904,
+        0.6361926198005676
+      ],
+      "chosen_probability": 0.6361926198005676,
+      "value": 4.099842071533203,
+      "raw_reward": 12,
+      "score": 260,
+      "spawn": {
+        "position": 13,
+        "row": 3,
+        "column": 1,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 45,
+      "board_before": [
+        [
+          5,
+          4,
+          3,
+          1
+        ],
+        [
+          4,
+          3,
+          3,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          4,
+          3,
+          1
+        ],
+        [
+          4,
+          4,
+          0,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.4624471366405487,
+        3.470343290246092e-05,
+        0.02550271525979042,
+        0.5120153427124023
+      ],
+      "chosen_probability": 0.5120153427124023,
+      "value": 4.117748260498047,
+      "raw_reward": 16,
+      "score": 276,
+      "spawn": {
+        "position": 11,
+        "row": 2,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 46,
+      "board_before": [
+        [
+          5,
+          4,
+          3,
+          1
+        ],
+        [
+          4,
+          4,
+          0,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          5,
+          3,
+          2
+        ],
+        [
+          4,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.5153196454048157,
+        2.783940544759389e-06,
+        0.0012705633416771889,
+        0.48340702056884766
+      ],
+      "chosen_probability": 0.5153196454048157,
+      "value": 4.105561256408691,
+      "raw_reward": 36,
+      "score": 312,
+      "spawn": {
+        "position": 14,
+        "row": 3,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 47,
+      "board_before": [
+        [
+          5,
+          5,
+          3,
+          2
+        ],
+        [
+          4,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.4475893974304199,
+        5.0869515689555556e-05,
+        0.01643221639096737,
+        0.5359275341033936
+      ],
+      "chosen_probability": 0.5359275341033936,
+      "value": 4.122494220733643,
+      "raw_reward": 64,
+      "score": 376,
+      "spawn": {
+        "position": 10,
+        "row": 2,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 48,
+      "board_before": [
+        [
+          6,
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          2,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.47604477405548096,
+        4.374370519144577e-07,
+        0.2936972975730896,
+        0.23025748133659363
+      ],
+      "chosen_probability": 0.47604477405548096,
+      "value": 4.1341986656188965,
+      "raw_reward": 8,
+      "score": 384,
+      "spawn": {
+        "position": 13,
+        "row": 3,
+        "column": 1,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 49,
+      "board_before": [
+        [
+          6,
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          2,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          3,
+          3,
+          0
+        ],
+        [
+          4,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.6472224593162537,
+        9.152147413260536e-07,
+        0.058822717517614365,
+        0.29395395517349243
+      ],
+      "chosen_probability": 0.6472224593162537,
+      "value": 4.146045684814453,
+      "raw_reward": 16,
+      "score": 400,
+      "spawn": {
+        "position": 10,
+        "row": 2,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 50,
+      "board_before": [
+        [
+          6,
+          3,
+          3,
+          0
+        ],
+        [
+          4,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          4,
+          0,
+          0
+        ],
+        [
+          4,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.3227218985557556,
+        8.541277566109784e-06,
+        0.07730983197689056,
+        0.5999597311019897
+      ],
+      "chosen_probability": 0.5999597311019897,
+      "value": 4.1548380851745605,
+      "raw_reward": 20,
+      "score": 420,
+      "spawn": {
+        "position": 13,
+        "row": 3,
+        "column": 1,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 51,
+      "board_before": [
+        [
+          6,
+          4,
+          0,
+          0
+        ],
+        [
+          4,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          1,
+          0,
+          6,
+          4
+        ],
+        [
+          0,
+          0,
+          4,
+          3
+        ],
+        [
+          0,
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "action": 1,
+      "action_name": "right",
+      "probabilities": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "chosen_probability": 1.0,
+      "value": 4.150307655334473,
+      "raw_reward": 0,
+      "score": 420,
+      "spawn": {
+        "position": 0,
+        "row": 0,
+        "column": 0,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 52,
+      "board_before": [
+        [
+          1,
+          0,
+          6,
+          4
+        ],
+        [
+          0,
+          0,
+          4,
+          3
+        ],
+        [
+          0,
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.0,
+        0.00021882537112105638,
+        1.0295179890817963e-06,
+        0.9997801184654236
+      ],
+      "chosen_probability": 0.9997801184654236,
+      "value": 3.224797010421753,
+      "raw_reward": 0,
+      "score": 420,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 53,
+      "board_before": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.2048412263393402,
+        0.0006382046267390251,
+        0.0797329694032669,
+        0.7147875428199768
+      ],
+      "chosen_probability": 0.7147875428199768,
+      "value": 3.6080000400543213,
+      "raw_reward": 0,
+      "score": 420,
+      "spawn": {
+        "position": 11,
+        "row": 2,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 54,
+      "board_before": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          1,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.15526391565799713,
+        0.00020267705258447677,
+        0.21761415898799896,
+        0.6269192099571228
+      ],
+      "chosen_probability": 0.6269192099571228,
+      "value": 3.571948289871216,
+      "raw_reward": 0,
+      "score": 420,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 55,
+      "board_before": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          1,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.15662738680839539,
+        0.0004521303635556251,
+        0.1649858057498932,
+        0.6779347062110901
+      ],
+      "chosen_probability": 0.6779347062110901,
+      "value": 3.5620217323303223,
+      "raw_reward": 4,
+      "score": 424,
+      "spawn": {
+        "position": 11,
+        "row": 2,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 56,
+      "board_before": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          1,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.07631223648786545,
+        0.0001870475971372798,
+        0.1369098573923111,
+        0.7865908741950989
+      ],
+      "chosen_probability": 0.7865908741950989,
+      "value": 3.5445401668548584,
+      "raw_reward": 4,
+      "score": 428,
+      "spawn": {
+        "position": 14,
+        "row": 3,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 57,
+      "board_before": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          1,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.01396240945905447,
+        1.7361464870191412e-06,
+        0.009679039940237999,
+        0.9763568639755249
+      ],
+      "chosen_probability": 0.9763568639755249,
+      "value": 3.5503756999969482,
+      "raw_reward": 12,
+      "score": 440,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 58,
+      "board_before": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          4,
+          0,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.14076998829841614,
+        0.0006197415059432387,
+        0.015999922528862953,
+        0.8426103591918945
+      ],
+      "chosen_probability": 0.8426103591918945,
+      "value": 3.524456739425659,
+      "raw_reward": 24,
+      "score": 464,
+      "spawn": {
+        "position": 10,
+        "row": 2,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 59,
+      "board_before": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          4,
+          0,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          4,
+          1,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.10072088986635208,
+        0.00019366820924915373,
+        0.009501978754997253,
+        0.8895835280418396
+      ],
+      "chosen_probability": 0.8895835280418396,
+      "value": 3.631789207458496,
+      "raw_reward": 0,
+      "score": 464,
+      "spawn": {
+        "position": 11,
+        "row": 2,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 60,
+      "board_before": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          4,
+          1,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.1441238820552826,
+        0.000483275594888255,
+        0.02029608190059662,
+        0.8350967168807983
+      ],
+      "chosen_probability": 0.8350967168807983,
+      "value": 3.6767354011535645,
+      "raw_reward": 4,
+      "score": 468,
+      "spawn": {
+        "position": 15,
+        "row": 3,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 61,
+      "board_before": [
+        [
+          1,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          1,
+          6,
+          4,
+          1
+        ],
+        [
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.18904449045658112,
+        0.0014028777368366718,
+        0.08207748830318451,
+        0.727475106716156
+      ],
+      "chosen_probability": 0.727475106716156,
+      "value": 3.6676783561706543,
+      "raw_reward": 0,
+      "score": 468,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 62,
+      "board_before": [
+        [
+          1,
+          6,
+          4,
+          1
+        ],
+        [
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          1,
+          6,
+          4,
+          2
+        ],
+        [
+          5,
+          3,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.8804246783256531,
+        0.020871395245194435,
+        0.09870396554470062,
+        0.0
+      ],
+      "chosen_probability": 0.8804246783256531,
+      "value": 3.570479393005371,
+      "raw_reward": 36,
+      "score": 504,
+      "spawn": {
+        "position": 15,
+        "row": 3,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 63,
+      "board_before": [
+        [
+          1,
+          6,
+          4,
+          2
+        ],
+        [
+          5,
+          3,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          1,
+          6,
+          4,
+          2
+        ],
+        [
+          5,
+          3,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.19875462353229523,
+        0.014274807646870613,
+        0.0012478214921429753,
+        0.7857227325439453
+      ],
+      "chosen_probability": 0.7857227325439453,
+      "value": 3.4754693508148193,
+      "raw_reward": 4,
+      "score": 508,
+      "spawn": {
+        "position": 10,
+        "row": 2,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 64,
+      "board_before": [
+        [
+          1,
+          6,
+          4,
+          2
+        ],
+        [
+          5,
+          3,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          6,
+          4,
+          1
+        ],
+        [
+          3,
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          2,
+          1,
+          2
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "action": 2,
+      "action_name": "down",
+      "probabilities": [
+        0.0,
+        0.009193929843604565,
+        0.9908060431480408,
+        0.0
+      ],
+      "chosen_probability": 0.9908060431480408,
+      "value": 3.659724235534668,
+      "raw_reward": 0,
+      "score": 508,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 65,
+      "board_before": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          6,
+          4,
+          1
+        ],
+        [
+          3,
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          2,
+          1,
+          2
+        ]
+      ],
+      "board_after": [
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          5,
+          6,
+          4,
+          1
+        ],
+        [
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.006181796547025442,
+        7.440004168302039e-09,
+        0.017581108957529068,
+        0.9762370586395264
+      ],
+      "chosen_probability": 0.9762370586395264,
+      "value": 3.7450714111328125,
+      "raw_reward": 24,
+      "score": 532,
+      "spawn": {
+        "position": 1,
+        "row": 0,
+        "column": 1,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 66,
+      "board_before": [
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          5,
+          6,
+          4,
+          1
+        ],
+        [
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          5,
+          6,
+          4,
+          1
+        ],
+        [
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.029593493789434433,
+        1.5091168279468548e-06,
+        0.016094323247671127,
+        0.9543107151985168
+      ],
+      "chosen_probability": 0.9543107151985168,
+      "value": 3.7845330238342285,
+      "raw_reward": 4,
+      "score": 536,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 67,
+      "board_before": [
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          5,
+          6,
+          4,
+          1
+        ],
+        [
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          5,
+          6,
+          4,
+          1
+        ],
+        [
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.04661814868450165,
+        1.1773531696235295e-06,
+        0.04569925367832184,
+        0.907681405544281
+      ],
+      "chosen_probability": 0.907681405544281,
+      "value": 3.7775235176086426,
+      "raw_reward": 0,
+      "score": 536,
+      "spawn": {
+        "position": 15,
+        "row": 3,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 68,
+      "board_before": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          5,
+          6,
+          4,
+          1
+        ],
+        [
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          2,
+          1,
+          4,
+          2
+        ],
+        [
+          5,
+          6,
+          2,
+          1
+        ],
+        [
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.9323734641075134,
+        6.048245722922729e-06,
+        0.06762050092220306,
+        0.0
+      ],
+      "chosen_probability": 0.9323734641075134,
+      "value": 3.767198085784912,
+      "raw_reward": 4,
+      "score": 540,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 69,
+      "board_before": [
+        [
+          2,
+          1,
+          4,
+          2
+        ],
+        [
+          5,
+          6,
+          2,
+          1
+        ],
+        [
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          5,
+          6,
+          0,
+          1
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "action": 2,
+      "action_name": "down",
+      "probabilities": [
+        0.0,
+        0.00014154672680888325,
+        0.9998583793640137,
+        0.0
+      ],
+      "chosen_probability": 0.9998583793640137,
+      "value": 3.7528462409973145,
+      "raw_reward": 0,
+      "score": 540,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 70,
+      "board_before": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          5,
+          6,
+          0,
+          1
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          2,
+          1,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          1,
+          0
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.08501454442739487,
+        1.0772131986414024e-07,
+        0.0,
+        0.9149854183197021
+      ],
+      "chosen_probability": 0.9149854183197021,
+      "value": 3.768219470977783,
+      "raw_reward": 0,
+      "score": 540,
+      "spawn": {
+        "position": 2,
+        "row": 0,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 71,
+      "board_before": [
+        [
+          2,
+          1,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          1,
+          0
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          2,
+          2,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          1,
+          0
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.034277260303497314,
+        4.432540112730976e-09,
+        0.001802567159757018,
+        0.9639201760292053
+      ],
+      "chosen_probability": 0.9639201760292053,
+      "value": 3.7528505325317383,
+      "raw_reward": 4,
+      "score": 544,
+      "spawn": {
+        "position": 2,
+        "row": 0,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 72,
+      "board_before": [
+        [
+          2,
+          2,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          1,
+          0
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          3,
+          1,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          1,
+          0
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.05305475741624832,
+        9.364020669977435e-09,
+        0.0026082154363393784,
+        0.944337010383606
+      ],
+      "chosen_probability": 0.944337010383606,
+      "value": 3.7576584815979004,
+      "raw_reward": 8,
+      "score": 552,
+      "spawn": {
+        "position": 2,
+        "row": 0,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 73,
+      "board_before": [
+        [
+          3,
+          1,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          1,
+          0
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          3,
+          2,
+          0,
+          1
+        ],
+        [
+          5,
+          6,
+          1,
+          0
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.11049028486013412,
+        1.3624881667340105e-08,
+        0.005141749512404203,
+        0.8843680024147034
+      ],
+      "chosen_probability": 0.8843680024147034,
+      "value": 3.87912654876709,
+      "raw_reward": 4,
+      "score": 556,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 74,
+      "board_before": [
+        [
+          3,
+          2,
+          0,
+          1
+        ],
+        [
+          5,
+          6,
+          1,
+          0
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          1,
+          1
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.10876722633838654,
+        1.5721039403615578e-07,
+        0.0039643337950110435,
+        0.8872683644294739
+      ],
+      "chosen_probability": 0.8872683644294739,
+      "value": 3.8506405353546143,
+      "raw_reward": 0,
+      "score": 556,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 75,
+      "board_before": [
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          1,
+          1
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          2,
+          1
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.316081166267395,
+        5.597092922471347e-07,
+        0.012287464924156666,
+        0.671630859375
+      ],
+      "chosen_probability": 0.671630859375,
+      "value": 3.8501429557800293,
+      "raw_reward": 4,
+      "score": 560,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 76,
+      "board_before": [
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          2,
+          1
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          3,
+          2,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          2
+        ],
+        [
+          4,
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.9999984502792358,
+        1.5496264040848473e-06,
+        0.0,
+        0.0
+      ],
+      "chosen_probability": 0.9999984502792358,
+      "value": 3.8147857189178467,
+      "raw_reward": 0,
+      "score": 560,
+      "spawn": {
+        "position": 15,
+        "row": 3,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 77,
+      "board_before": [
+        [
+          3,
+          2,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          2
+        ],
+        [
+          4,
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          3,
+          2,
+          2,
+          1
+        ],
+        [
+          5,
+          6,
+          3,
+          0
+        ],
+        [
+          4,
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        2.1054396711406298e-05,
+        1.6627488719223038e-08,
+        9.126588338403963e-06,
+        0.9999698400497437
+      ],
+      "chosen_probability": 0.9999698400497437,
+      "value": 3.7633466720581055,
+      "raw_reward": 12,
+      "score": 572,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 78,
+      "board_before": [
+        [
+          3,
+          2,
+          2,
+          1
+        ],
+        [
+          5,
+          6,
+          3,
+          0
+        ],
+        [
+          4,
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          3,
+          3,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          3,
+          1
+        ],
+        [
+          4,
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.0036427793093025684,
+        7.600696960707864e-08,
+        0.00013840051542501897,
+        0.996218740940094
+      ],
+      "chosen_probability": 0.996218740940094,
+      "value": 3.725388765335083,
+      "raw_reward": 8,
+      "score": 580,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 79,
+      "board_before": [
+        [
+          3,
+          3,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          3,
+          1
+        ],
+        [
+          4,
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          1,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          3,
+          1
+        ],
+        [
+          4,
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.011510488577187061,
+        9.15763052944385e-07,
+        0.002849106676876545,
+        0.9856394529342651
+      ],
+      "chosen_probability": 0.9856394529342651,
+      "value": 3.724639892578125,
+      "raw_reward": 16,
+      "score": 596,
+      "spawn": {
+        "position": 2,
+        "row": 0,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 80,
+      "board_before": [
+        [
+          4,
+          1,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          3,
+          1
+        ],
+        [
+          4,
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          2,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          3,
+          1
+        ],
+        [
+          4,
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.01362626813352108,
+        5.513727074912822e-08,
+        0.0019726569298654795,
+        0.9844010472297668
+      ],
+      "chosen_probability": 0.9844010472297668,
+      "value": 3.798488140106201,
+      "raw_reward": 4,
+      "score": 600,
+      "spawn": {
+        "position": 2,
+        "row": 0,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 81,
+      "board_before": [
+        [
+          4,
+          2,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          3,
+          1
+        ],
+        [
+          4,
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          2,
+          1,
+          2
+        ],
+        [
+          5,
+          6,
+          3,
+          1
+        ],
+        [
+          4,
+          2,
+          4,
+          0
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.8797061443328857,
+        8.757314390095416e-06,
+        0.1202850341796875,
+        0.0
+      ],
+      "chosen_probability": 0.8797061443328857,
+      "value": 3.8311610221862793,
+      "raw_reward": 4,
+      "score": 604,
+      "spawn": {
+        "position": 15,
+        "row": 3,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 82,
+      "board_before": [
+        [
+          4,
+          2,
+          1,
+          2
+        ],
+        [
+          5,
+          6,
+          3,
+          1
+        ],
+        [
+          4,
+          2,
+          4,
+          0
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          2,
+          1,
+          2
+        ],
+        [
+          5,
+          6,
+          3,
+          2
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.8833156824111938,
+        0.00010731717338785529,
+        0.11657699942588806,
+        0.0
+      ],
+      "chosen_probability": 0.8833156824111938,
+      "value": 3.746995210647583,
+      "raw_reward": 4,
+      "score": 608,
+      "spawn": {
+        "position": 11,
+        "row": 2,
+        "column": 3,
+        "exponent": 2,
+        "tile": 4
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 83,
+      "board_before": [
+        [
+          4,
+          2,
+          1,
+          2
+        ],
+        [
+          5,
+          6,
+          3,
+          2
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          3,
+          2
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.9985137581825256,
+        3.3901273127412423e-05,
+        0.001452278345823288,
+        0.0
+      ],
+      "chosen_probability": 0.9985137581825256,
+      "value": 3.658388614654541,
+      "raw_reward": 8,
+      "score": 616,
+      "spawn": {
+        "position": 11,
+        "row": 2,
+        "column": 3,
+        "exponent": 2,
+        "tile": 4
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 84,
+      "board_before": [
+        [
+          4,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          3,
+          2
+        ],
+        [
+          4,
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          3,
+          3
+        ],
+        [
+          4,
+          2,
+          4,
+          0
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.998790442943573,
+        4.073358650202863e-05,
+        0.0011688880622386932,
+        0.0
+      ],
+      "chosen_probability": 0.998790442943573,
+      "value": 3.5719735622406006,
+      "raw_reward": 8,
+      "score": 624,
+      "spawn": {
+        "position": 15,
+        "row": 3,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 85,
+      "board_before": [
+        [
+          4,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          3,
+          3
+        ],
+        [
+          4,
+          2,
+          4,
+          0
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        3.947153891203925e-05,
+        6.673579466820456e-09,
+        2.9758899472653866e-05,
+        0.999930739402771
+      ],
+      "chosen_probability": 0.999930739402771,
+      "value": 3.6376659870147705,
+      "raw_reward": 16,
+      "score": 640,
+      "spawn": {
+        "position": 11,
+        "row": 2,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 86,
+      "board_before": [
+        [
+          4,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          4,
+          0
+        ],
+        [
+          4,
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          1,
+          2,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          4,
+          2,
+          2,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.6154529452323914,
+        3.68638320651371e-05,
+        0.38451024889945984,
+        0.0
+      ],
+      "chosen_probability": 0.6154529452323914,
+      "value": 3.580662965774536,
+      "raw_reward": 36,
+      "score": 676,
+      "spawn": {
+        "position": 15,
+        "row": 3,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 87,
+      "board_before": [
+        [
+          4,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          4,
+          2,
+          2,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          4,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.0106191486120224,
+        2.5499848561594263e-06,
+        0.004341393243521452,
+        0.9850369095802307
+      ],
+      "chosen_probability": 0.9850369095802307,
+      "value": 3.689361572265625,
+      "raw_reward": 12,
+      "score": 688,
+      "spawn": {
+        "position": 10,
+        "row": 2,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 88,
+      "board_before": [
+        [
+          4,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          4,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          2,
+          0,
+          1
+        ],
+        [
+          5,
+          6,
+          1,
+          0
+        ],
+        [
+          4,
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          2,
+          1,
+          2
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "action": 2,
+      "action_name": "down",
+      "probabilities": [
+        0.0,
+        3.1250606298272032e-06,
+        0.9999969005584717,
+        0.0
+      ],
+      "chosen_probability": 0.9999969005584717,
+      "value": 3.8444225788116455,
+      "raw_reward": 0,
+      "score": 688,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 89,
+      "board_before": [
+        [
+          4,
+          2,
+          0,
+          1
+        ],
+        [
+          5,
+          6,
+          1,
+          0
+        ],
+        [
+          4,
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          2,
+          1,
+          2
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          2,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          1,
+          1
+        ],
+        [
+          4,
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          2,
+          1,
+          2
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.00040012586396187544,
+        9.748502005635373e-10,
+        9.566685184836388e-05,
+        0.9995042085647583
+      ],
+      "chosen_probability": 0.9995042085647583,
+      "value": 3.854292154312134,
+      "raw_reward": 0,
+      "score": 688,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 90,
+      "board_before": [
+        [
+          4,
+          2,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          1,
+          1
+        ],
+        [
+          4,
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          2,
+          1,
+          2
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          2,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          0
+        ],
+        [
+          4,
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          2,
+          1,
+          2
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.002555037382990122,
+        1.8875404350637837e-08,
+        0.00018957434804178774,
+        0.9972553849220276
+      ],
+      "chosen_probability": 0.9972553849220276,
+      "value": 3.837244987487793,
+      "raw_reward": 4,
+      "score": 692,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 91,
+      "board_before": [
+        [
+          4,
+          2,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          0
+        ],
+        [
+          4,
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          2,
+          1,
+          2
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          2,
+          2,
+          0
+        ],
+        [
+          5,
+          6,
+          2,
+          1
+        ],
+        [
+          4,
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          2,
+          1,
+          2
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        1.1268240996287204e-05,
+        2.120937869776185e-10,
+        1.8815791236193036e-06,
+        0.9999868869781494
+      ],
+      "chosen_probability": 0.9999868869781494,
+      "value": 3.7821128368377686,
+      "raw_reward": 4,
+      "score": 696,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 92,
+      "board_before": [
+        [
+          4,
+          2,
+          2,
+          0
+        ],
+        [
+          5,
+          6,
+          2,
+          1
+        ],
+        [
+          4,
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          2,
+          1,
+          2
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          3,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          2,
+          1
+        ],
+        [
+          4,
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          2,
+          1,
+          2
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.0005599736468866467,
+        6.384769601908147e-09,
+        0.0005402489914558828,
+        0.9988996982574463
+      ],
+      "chosen_probability": 0.9988996982574463,
+      "value": 3.7638652324676514,
+      "raw_reward": 8,
+      "score": 704,
+      "spawn": {
+        "position": 2,
+        "row": 0,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 93,
+      "board_before": [
+        [
+          4,
+          3,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          2,
+          1
+        ],
+        [
+          4,
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          2,
+          1,
+          2
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          3,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          3
+        ],
+        [
+          4,
+          3,
+          5,
+          2
+        ],
+        [
+          3,
+          2,
+          1,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.9999918937683105,
+        8.10631627246039e-06,
+        0.0,
+        0.0
+      ],
+      "chosen_probability": 0.9999918937683105,
+      "value": 3.797569751739502,
+      "raw_reward": 0,
+      "score": 704,
+      "spawn": {
+        "position": 15,
+        "row": 3,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 94,
+      "board_before": [
+        [
+          4,
+          3,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          3
+        ],
+        [
+          4,
+          3,
+          5,
+          2
+        ],
+        [
+          3,
+          2,
+          1,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          3
+        ],
+        [
+          4,
+          3,
+          5,
+          2
+        ],
+        [
+          3,
+          2,
+          2,
+          0
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.0,
+        9.313274595967869e-09,
+        0.0,
+        1.0
+      ],
+      "chosen_probability": 1.0,
+      "value": 3.8038575649261475,
+      "raw_reward": 8,
+      "score": 712,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 95,
+      "board_before": [
+        [
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          3
+        ],
+        [
+          4,
+          3,
+          5,
+          2
+        ],
+        [
+          3,
+          2,
+          2,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          3
+        ],
+        [
+          4,
+          3,
+          5,
+          2
+        ],
+        [
+          3,
+          3,
+          0,
+          2
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.0016188400331884623,
+        2.6618346282702987e-07,
+        0.0030219536274671555,
+        0.9953590035438538
+      ],
+      "chosen_probability": 0.9953590035438538,
+      "value": 3.791696310043335,
+      "raw_reward": 8,
+      "score": 720,
+      "spawn": {
+        "position": 15,
+        "row": 3,
+        "column": 3,
+        "exponent": 2,
+        "tile": 4
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 96,
+      "board_before": [
+        [
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          3
+        ],
+        [
+          4,
+          3,
+          5,
+          2
+        ],
+        [
+          3,
+          3,
+          0,
+          2
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          3
+        ],
+        [
+          4,
+          3,
+          5,
+          2
+        ],
+        [
+          4,
+          2,
+          1,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.10199177265167236,
+        4.162351251579821e-05,
+        0.21697072684764862,
+        0.6809958815574646
+      ],
+      "chosen_probability": 0.6809958815574646,
+      "value": 3.5810465812683105,
+      "raw_reward": 16,
+      "score": 736,
+      "spawn": {
+        "position": 14,
+        "row": 3,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 97,
+      "board_before": [
+        [
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          3
+        ],
+        [
+          4,
+          3,
+          5,
+          2
+        ],
+        [
+          4,
+          2,
+          1,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          3,
+          3,
+          1
+        ],
+        [
+          5,
+          6,
+          5,
+          3
+        ],
+        [
+          5,
+          3,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.8449758291244507,
+        1.1589624591579195e-05,
+        0.1550125628709793,
+        0.0
+      ],
+      "chosen_probability": 0.8449758291244507,
+      "value": 3.744047164916992,
+      "raw_reward": 40,
+      "score": 776,
+      "spawn": {
+        "position": 12,
+        "row": 3,
+        "column": 0,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 98,
+      "board_before": [
+        [
+          4,
+          3,
+          3,
+          1
+        ],
+        [
+          5,
+          6,
+          5,
+          3
+        ],
+        [
+          5,
+          3,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          4,
+          4,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          5,
+          3
+        ],
+        [
+          5,
+          3,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.06780111789703369,
+        4.768996859638719e-07,
+        0.0011368794366717339,
+        0.9310616254806519
+      ],
+      "chosen_probability": 0.9310616254806519,
+      "value": 3.4405159950256348,
+      "raw_reward": 16,
+      "score": 792,
+      "spawn": {
+        "position": 14,
+        "row": 3,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 99,
+      "board_before": [
+        [
+          4,
+          4,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          5,
+          3
+        ],
+        [
+          5,
+          3,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          1,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          5,
+          3
+        ],
+        [
+          5,
+          3,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.3386635482311249,
+        1.4909440437804733e-07,
+        0.008062967099249363,
+        0.6532734036445618
+      ],
+      "chosen_probability": 0.6532734036445618,
+      "value": 3.5505151748657227,
+      "raw_reward": 32,
+      "score": 824,
+      "spawn": {
+        "position": 2,
+        "row": 0,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 100,
+      "board_before": [
+        [
+          5,
+          1,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          5,
+          3
+        ],
+        [
+          5,
+          3,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          5,
+          2,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          5,
+          3
+        ],
+        [
+          5,
+          3,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.13698291778564453,
+        5.671601144285887e-08,
+        0.004324267618358135,
+        0.8586927652359009
+      ],
+      "chosen_probability": 0.8586927652359009,
+      "value": 3.6329567432403564,
+      "raw_reward": 4,
+      "score": 828,
+      "spawn": {
+        "position": 2,
+        "row": 0,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 101,
+      "board_before": [
+        [
+          5,
+          2,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          5,
+          3
+        ],
+        [
+          5,
+          3,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.9534632563591003,
+        2.6368013550381875e-07,
+        0.046536561101675034,
+        0.0
+      ],
+      "chosen_probability": 0.9534632563591003,
+      "value": 3.63486909866333,
+      "raw_reward": 68,
+      "score": 896,
+      "spawn": {
+        "position": 14,
+        "row": 3,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 102,
+      "board_before": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          1
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.0,
+        0.005001454148441553,
+        4.027759132441133e-06,
+        0.9949945211410522
+      ],
+      "chosen_probability": 0.9949945211410522,
+      "value": 2.9480199813842773,
+      "raw_reward": 0,
+      "score": 896,
+      "spawn": {
+        "position": 15,
+        "row": 3,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 103,
+      "board_before": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          2
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 1,
+      "action_name": "right",
+      "probabilities": [
+        0.10964110493659973,
+        0.7245140671730042,
+        0.0866369679570198,
+        0.0792078897356987
+      ],
+      "chosen_probability": 0.7245140671730042,
+      "value": 2.8558452129364014,
+      "raw_reward": 4,
+      "score": 900,
+      "spawn": {
+        "position": 12,
+        "row": 3,
+        "column": 0,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 104,
+      "board_before": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          2
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          3,
+          0,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.04826413094997406,
+        0.006309940479695797,
+        0.3984319567680359,
+        0.5469940304756165
+      ],
+      "chosen_probability": 0.5469940304756165,
+      "value": 3.2153069972991943,
+      "raw_reward": 8,
+      "score": 908,
+      "spawn": {
+        "position": 11,
+        "row": 2,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 105,
+      "board_before": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          3,
+          0,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          3
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 1,
+      "action_name": "right",
+      "probabilities": [
+        0.22237908840179443,
+        0.4447013735771179,
+        0.33291947841644287,
+        0.0
+      ],
+      "chosen_probability": 0.4447013735771179,
+      "value": 2.9640274047851562,
+      "raw_reward": 0,
+      "score": 908,
+      "spawn": {
+        "position": 13,
+        "row": 3,
+        "column": 1,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 106,
+      "board_before": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          3
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "action": 1,
+      "action_name": "right",
+      "probabilities": [
+        0.0,
+        0.7641218900680542,
+        0.0012556171277537942,
+        0.234622523188591
+      ],
+      "chosen_probability": 0.7641218900680542,
+      "value": 2.619107246398926,
+      "raw_reward": 4,
+      "score": 912,
+      "spawn": {
+        "position": 13,
+        "row": 3,
+        "column": 1,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 107,
+      "board_before": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          1,
+          3,
+          3,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          3
+        ]
+      ],
+      "legal_mask": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.9368281960487366,
+        0.0,
+        6.154272705316544e-05,
+        0.06311028450727463
+      ],
+      "chosen_probability": 0.9368281960487366,
+      "value": 2.581883430480957,
+      "raw_reward": 8,
+      "score": 920,
+      "spawn": {
+        "position": 12,
+        "row": 3,
+        "column": 0,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 108,
+      "board_before": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          1,
+          3,
+          3,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          3
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          0,
+          1,
+          4,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 1,
+      "action_name": "right",
+      "probabilities": [
+        0.11185845732688904,
+        0.4560796022415161,
+        0.4140031337738037,
+        0.01805875077843666
+      ],
+      "chosen_probability": 0.4560796022415161,
+      "value": 2.6799464225769043,
+      "raw_reward": 20,
+      "score": 940,
+      "spawn": {
+        "position": 13,
+        "row": 3,
+        "column": 1,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 109,
+      "board_before": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          0,
+          1,
+          4,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          1,
+          4,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        8.882790280040354e-05,
+        0.0,
+        9.798130486160517e-05,
+        0.9998132586479187
+      ],
+      "chosen_probability": 0.9998132586479187,
+      "value": 2.757596254348755,
+      "raw_reward": 0,
+      "score": 940,
+      "spawn": {
+        "position": 15,
+        "row": 3,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 110,
+      "board_before": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          1,
+          4,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          2,
+          4,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.9441263675689697,
+        0.03564196079969406,
+        0.0202315803617239,
+        0.0
+      ],
+      "chosen_probability": 0.9441263675689697,
+      "value": 2.4690425395965576,
+      "raw_reward": 4,
+      "score": 944,
+      "spawn": {
+        "position": 12,
+        "row": 3,
+        "column": 0,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 111,
+      "board_before": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          2,
+          4,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          2,
+          4,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.0,
+        0.001331082545220852,
+        0.0005602693418040872,
+        0.9981086254119873
+      ],
+      "chosen_probability": 0.9981086254119873,
+      "value": 2.5788121223449707,
+      "raw_reward": 4,
+      "score": 948,
+      "spawn": {
+        "position": 11,
+        "row": 2,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 112,
+      "board_before": [
+        [
+          6,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          2
+        ],
+        [
+          2,
+          4,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          2,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          5,
+          3
+        ],
+        [
+          2,
+          4,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          1
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "action": 2,
+      "action_name": "down",
+      "probabilities": [
+        0.0,
+        0.37586116790771484,
+        0.6241388916969299,
+        0.0
+      ],
+      "chosen_probability": 0.6241388916969299,
+      "value": 2.7886388301849365,
+      "raw_reward": 0,
+      "score": 948,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 113,
+      "board_before": [
+        [
+          6,
+          2,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          5,
+          3
+        ],
+        [
+          2,
+          4,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          2,
+          2,
+          1
+        ],
+        [
+          5,
+          6,
+          5,
+          3
+        ],
+        [
+          2,
+          4,
+          3,
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          1
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.0,
+        6.827833567513153e-05,
+        0.0,
+        0.9999316930770874
+      ],
+      "chosen_probability": 0.9999316930770874,
+      "value": 2.931283950805664,
+      "raw_reward": 12,
+      "score": 960,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 114,
+      "board_before": [
+        [
+          6,
+          2,
+          2,
+          1
+        ],
+        [
+          5,
+          6,
+          5,
+          3
+        ],
+        [
+          2,
+          4,
+          3,
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          2,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          2,
+          1
+        ],
+        [
+          2,
+          4,
+          5,
+          3
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 2,
+      "action_name": "down",
+      "probabilities": [
+        0.02693195827305317,
+        0.00024974512052722275,
+        0.9389081001281738,
+        0.03391009569168091
+      ],
+      "chosen_probability": 0.9389081001281738,
+      "value": 2.8654398918151855,
+      "raw_reward": 16,
+      "score": 976,
+      "spawn": {
+        "position": 2,
+        "row": 0,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 115,
+      "board_before": [
+        [
+          6,
+          2,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          2,
+          1
+        ],
+        [
+          2,
+          4,
+          5,
+          3
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          2,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          3
+        ],
+        [
+          2,
+          4,
+          5,
+          1
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.9986732006072998,
+        0.0013267677277326584,
+        0.0,
+        0.0
+      ],
+      "chosen_probability": 0.9986732006072998,
+      "value": 2.7620060443878174,
+      "raw_reward": 0,
+      "score": 976,
+      "spawn": {
+        "position": 15,
+        "row": 3,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 116,
+      "board_before": [
+        [
+          6,
+          2,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          3
+        ],
+        [
+          2,
+          4,
+          5,
+          1
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          2,
+          2,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          3
+        ],
+        [
+          2,
+          4,
+          5,
+          1
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        3.83170224438345e-08,
+        5.185323743717163e-07,
+        0.00018728553550317883,
+        0.9998121857643127
+      ],
+      "chosen_probability": 0.9998121857643127,
+      "value": 2.5856809616088867,
+      "raw_reward": 4,
+      "score": 980,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 117,
+      "board_before": [
+        [
+          6,
+          2,
+          2,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          3
+        ],
+        [
+          2,
+          4,
+          5,
+          1
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          3,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          3
+        ],
+        [
+          2,
+          4,
+          5,
+          1
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        5.745917951571755e-05,
+        8.765799429966137e-05,
+        0.07451866567134857,
+        0.9253361225128174
+      ],
+      "chosen_probability": 0.9253361225128174,
+      "value": 2.5543344020843506,
+      "raw_reward": 8,
+      "score": 988,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 118,
+      "board_before": [
+        [
+          6,
+          3,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          3
+        ],
+        [
+          2,
+          4,
+          5,
+          1
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          3,
+          2,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          3
+        ],
+        [
+          2,
+          4,
+          5,
+          1
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        7.758993803008707e-08,
+        1.716977180876711e-06,
+        0.0006316467188298702,
+        0.9993665814399719
+      ],
+      "chosen_probability": 0.9993665814399719,
+      "value": 2.5949416160583496,
+      "raw_reward": 4,
+      "score": 992,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 119,
+      "board_before": [
+        [
+          6,
+          3,
+          2,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          3
+        ],
+        [
+          2,
+          4,
+          5,
+          1
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          3,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          3,
+          1
+        ],
+        [
+          2,
+          4,
+          5,
+          3
+        ],
+        [
+          1,
+          2,
+          4,
+          2
+        ]
+      ],
+      "legal_mask": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "action": 2,
+      "action_name": "down",
+      "probabilities": [
+        0.0003064765769522637,
+        0.0,
+        0.9996935129165649,
+        0.0
+      ],
+      "chosen_probability": 0.9996935129165649,
+      "value": 2.542353391647339,
+      "raw_reward": 12,
+      "score": 1004,
+      "spawn": {
+        "position": 2,
+        "row": 0,
+        "column": 2,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 120,
+      "board_before": [
+        [
+          6,
+          3,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          3,
+          1
+        ],
+        [
+          2,
+          4,
+          5,
+          3
+        ],
+        [
+          1,
+          2,
+          4,
+          2
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          3,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          3,
+          3
+        ],
+        [
+          2,
+          4,
+          5,
+          2
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.989531397819519,
+        0.010468617081642151,
+        0.0,
+        0.0
+      ],
+      "chosen_probability": 0.989531397819519,
+      "value": 2.544673442840576,
+      "raw_reward": 0,
+      "score": 1004,
+      "spawn": {
+        "position": 15,
+        "row": 3,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 121,
+      "board_before": [
+        [
+          6,
+          3,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          3,
+          3
+        ],
+        [
+          2,
+          4,
+          5,
+          2
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          3,
+          2,
+          2
+        ],
+        [
+          5,
+          6,
+          4,
+          0
+        ],
+        [
+          2,
+          4,
+          5,
+          2
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.0,
+        4.2217880036332645e-06,
+        0.0,
+        0.9999958276748657
+      ],
+      "chosen_probability": 0.9999958276748657,
+      "value": 2.5819079875946045,
+      "raw_reward": 20,
+      "score": 1024,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 2,
+        "tile": 4
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 122,
+      "board_before": [
+        [
+          6,
+          3,
+          2,
+          2
+        ],
+        [
+          5,
+          6,
+          4,
+          0
+        ],
+        [
+          2,
+          4,
+          5,
+          2
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          3,
+          3,
+          1
+        ],
+        [
+          5,
+          6,
+          4,
+          0
+        ],
+        [
+          2,
+          4,
+          5,
+          2
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.010119859129190445,
+        0.005245824344456196,
+        0.07146614789962769,
+        0.9131681323051453
+      ],
+      "chosen_probability": 0.9131681323051453,
+      "value": 2.217108726501465,
+      "raw_reward": 8,
+      "score": 1032,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 123,
+      "board_before": [
+        [
+          6,
+          3,
+          3,
+          1
+        ],
+        [
+          5,
+          6,
+          4,
+          0
+        ],
+        [
+          2,
+          4,
+          5,
+          2
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          4,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          4,
+          2
+        ],
+        [
+          2,
+          4,
+          5,
+          2
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.10893911123275757,
+        0.004021681845188141,
+        0.31824791431427,
+        0.5687912702560425
+      ],
+      "chosen_probability": 0.5687912702560425,
+      "value": 2.3432798385620117,
+      "raw_reward": 16,
+      "score": 1048,
+      "spawn": {
+        "position": 7,
+        "row": 1,
+        "column": 3,
+        "exponent": 2,
+        "tile": 4
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 124,
+      "board_before": [
+        [
+          6,
+          4,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          4,
+          2
+        ],
+        [
+          2,
+          4,
+          5,
+          2
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          6,
+          4,
+          0
+        ],
+        [
+          2,
+          4,
+          5,
+          3
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 2,
+      "action_name": "down",
+      "probabilities": [
+        0.04699789360165596,
+        0.00357425375841558,
+        0.9494278430938721,
+        0.0
+      ],
+      "chosen_probability": 0.9494278430938721,
+      "value": 2.547513008117676,
+      "raw_reward": 8,
+      "score": 1056,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 2,
+        "tile": 4
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 125,
+      "board_before": [
+        [
+          6,
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          6,
+          4,
+          0
+        ],
+        [
+          2,
+          4,
+          5,
+          3
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          6,
+          4,
+          3
+        ],
+        [
+          2,
+          4,
+          5,
+          1
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action": 0,
+      "action_name": "up",
+      "probabilities": [
+        0.7644648551940918,
+        0.04466722533106804,
+        0.19086797535419464,
+        0.0
+      ],
+      "chosen_probability": 0.7644648551940918,
+      "value": 1.9983301162719727,
+      "raw_reward": 0,
+      "score": 1056,
+      "spawn": {
+        "position": 15,
+        "row": 3,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 126,
+      "board_before": [
+        [
+          6,
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          6,
+          4,
+          3
+        ],
+        [
+          2,
+          4,
+          5,
+          1
+        ],
+        [
+          1,
+          2,
+          4,
+          1
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          4,
+          2
+        ],
+        [
+          2,
+          4,
+          5,
+          3
+        ],
+        [
+          1,
+          2,
+          4,
+          2
+        ]
+      ],
+      "legal_mask": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "action": 2,
+      "action_name": "down",
+      "probabilities": [
+        4.545867705019191e-05,
+        0.0,
+        0.9999545812606812,
+        0.0
+      ],
+      "chosen_probability": 0.9999545812606812,
+      "value": 1.9055476188659668,
+      "raw_reward": 4,
+      "score": 1060,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 127,
+      "board_before": [
+        [
+          6,
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          4,
+          2
+        ],
+        [
+          2,
+          4,
+          5,
+          3
+        ],
+        [
+          1,
+          2,
+          4,
+          2
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          4,
+          2,
+          2
+        ],
+        [
+          5,
+          6,
+          4,
+          2
+        ],
+        [
+          2,
+          4,
+          5,
+          3
+        ],
+        [
+          1,
+          2,
+          4,
+          2
+        ]
+      ],
+      "legal_mask": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.0,
+        0.006791991647332907,
+        0.0,
+        0.9932079911231995
+      ],
+      "chosen_probability": 0.9932079911231995,
+      "value": 1.9494550228118896,
+      "raw_reward": 4,
+      "score": 1064,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 2,
+        "tile": 4
+      },
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "step": 128,
+      "board_before": [
+        [
+          6,
+          4,
+          2,
+          2
+        ],
+        [
+          5,
+          6,
+          4,
+          2
+        ],
+        [
+          2,
+          4,
+          5,
+          3
+        ],
+        [
+          1,
+          2,
+          4,
+          2
+        ]
+      ],
+      "board_after": [
+        [
+          6,
+          4,
+          3,
+          1
+        ],
+        [
+          5,
+          6,
+          4,
+          2
+        ],
+        [
+          2,
+          4,
+          5,
+          3
+        ],
+        [
+          1,
+          2,
+          4,
+          2
+        ]
+      ],
+      "legal_mask": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action": 3,
+      "action_name": "left",
+      "probabilities": [
+        0.0010919779306277633,
+        0.025579143315553665,
+        0.1344124972820282,
+        0.8389163017272949
+      ],
+      "chosen_probability": 0.8389163017272949,
+      "value": 1.6570364236831665,
+      "raw_reward": 8,
+      "score": 1072,
+      "spawn": {
+        "position": 3,
+        "row": 0,
+        "column": 3,
+        "exponent": 1,
+        "tile": 2
+      },
+      "terminated": true,
+      "truncated": false
+    }
+  ],
+  "model": "base3@4890",
+  "checkpoint_sha256": "bd861723180dd23f0a9bd3b57e675fbfcbb1b3dd49c3da187792d5760457bab1",
+  "reconstruction": {
+    "kind": "deterministic_CPU_reconstruction",
+    "original_vector_env_count": 100,
+    "original_final_result_source": "selected_test.json",
+    "original_step_log_available": false,
+    "checkpoint_sha256": "bd861723180dd23f0a9bd3b57e675fbfcbb1b3dd49c3da187792d5760457bab1",
+    "created_utc": "2026-10-12T09:25:31.933839+00:00",
+    "device": "cpu",
+    "torch": "2.11.0",
+    "numpy": "2.4.3",
+    "note": "Reconstructed from original seed and frozen greedy model; final board/score/length/tile checked against historical record. Historical intermediate steps were not saved, so direct comparison with historical per-step logs is unavailable."
+  },
+  "result": {
+    "env_id": 1,
+    "episode_id": 0,
+    "score": 1072,
+    "length": 128,
+    "max_exponent": 6,
+    "max_tile": 64,
+    "reached_2048": false,
+    "terminated": true,
+    "truncated": false,
+    "complete": true,
+    "status": "complete",
+    "final_board": [
+      [
+        6,
+        4,
+        3,
+        1
+      ],
+      [
+        5,
+        6,
+        4,
+        2
+      ],
+      [
+        2,
+        4,
+        5,
+        3
+      ],
+      [
+        1,
+        2,
+        4,
+        2
+      ]
+    ]
+  },
+  "complete": true,
+  "interrupted": false,
+  "interruption_reason": null
+}

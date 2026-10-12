@@ -1,0 +1,558 @@
+{
+  "model": "base3@4890",
+  "checkpoint_sha256": "bd861723180dd23f0a9bd3b57e675fbfcbb1b3dd49c3da187792d5760457bab1",
+  "namespace": "historical bank13 reconstruction, not a new evaluation bank",
+  "seed": 1,
+  "split_id": 13,
+  "vector_env_count": 100,
+  "cpu_threads": 1,
+  "inference_seconds": 2.1145499579724856,
+  "all100_final_results_match": true,
+  "all100_matches": [
+    {
+      "env_id": 0,
+      "matched": true
+    },
+    {
+      "env_id": 1,
+      "matched": true
+    },
+    {
+      "env_id": 2,
+      "matched": true
+    },
+    {
+      "env_id": 3,
+      "matched": true
+    },
+    {
+      "env_id": 4,
+      "matched": true
+    },
+    {
+      "env_id": 5,
+      "matched": true
+    },
+    {
+      "env_id": 6,
+      "matched": true
+    },
+    {
+      "env_id": 7,
+      "matched": true
+    },
+    {
+      "env_id": 8,
+      "matched": true
+    },
+    {
+      "env_id": 9,
+      "matched": true
+    },
+    {
+      "env_id": 10,
+      "matched": true
+    },
+    {
+      "env_id": 11,
+      "matched": true
+    },
+    {
+      "env_id": 12,
+      "matched": true
+    },
+    {
+      "env_id": 13,
+      "matched": true
+    },
+    {
+      "env_id": 14,
+      "matched": true
+    },
+    {
+      "env_id": 15,
+      "matched": true
+    },
+    {
+      "env_id": 16,
+      "matched": true
+    },
+    {
+      "env_id": 17,
+      "matched": true
+    },
+    {
+      "env_id": 18,
+      "matched": true
+    },
+    {
+      "env_id": 19,
+      "matched": true
+    },
+    {
+      "env_id": 20,
+      "matched": true
+    },
+    {
+      "env_id": 21,
+      "matched": true
+    },
+    {
+      "env_id": 22,
+      "matched": true
+    },
+    {
+      "env_id": 23,
+      "matched": true
+    },
+    {
+      "env_id": 24,
+      "matched": true
+    },
+    {
+      "env_id": 25,
+      "matched": true
+    },
+    {
+      "env_id": 26,
+      "matched": true
+    },
+    {
+      "env_id": 27,
+      "matched": true
+    },
+    {
+      "env_id": 28,
+      "matched": true
+    },
+    {
+      "env_id": 29,
+      "matched": true
+    },
+    {
+      "env_id": 30,
+      "matched": true
+    },
+    {
+      "env_id": 31,
+      "matched": true
+    },
+    {
+      "env_id": 32,
+      "matched": true
+    },
+    {
+      "env_id": 33,
+      "matched": true
+    },
+    {
+      "env_id": 34,
+      "matched": true
+    },
+    {
+      "env_id": 35,
+      "matched": true
+    },
+    {
+      "env_id": 36,
+      "matched": true
+    },
+    {
+      "env_id": 37,
+      "matched": true
+    },
+    {
+      "env_id": 38,
+      "matched": true
+    },
+    {
+      "env_id": 39,
+      "matched": true
+    },
+    {
+      "env_id": 40,
+      "matched": true
+    },
+    {
+      "env_id": 41,
+      "matched": true
+    },
+    {
+      "env_id": 42,
+      "matched": true
+    },
+    {
+      "env_id": 43,
+      "matched": true
+    },
+    {
+      "env_id": 44,
+      "matched": true
+    },
+    {
+      "env_id": 45,
+      "matched": true
+    },
+    {
+      "env_id": 46,
+      "matched": true
+    },
+    {
+      "env_id": 47,
+      "matched": true
+    },
+    {
+      "env_id": 48,
+      "matched": true
+    },
+    {
+      "env_id": 49,
+      "matched": true
+    },
+    {
+      "env_id": 50,
+      "matched": true
+    },
+    {
+      "env_id": 51,
+      "matched": true
+    },
+    {
+      "env_id": 52,
+      "matched": true
+    },
+    {
+      "env_id": 53,
+      "matched": true
+    },
+    {
+      "env_id": 54,
+      "matched": true
+    },
+    {
+      "env_id": 55,
+      "matched": true
+    },
+    {
+      "env_id": 56,
+      "matched": true
+    },
+    {
+      "env_id": 57,
+      "matched": true
+    },
+    {
+      "env_id": 58,
+      "matched": true
+    },
+    {
+      "env_id": 59,
+      "matched": true
+    },
+    {
+      "env_id": 60,
+      "matched": true
+    },
+    {
+      "env_id": 61,
+      "matched": true
+    },
+    {
+      "env_id": 62,
+      "matched": true
+    },
+    {
+      "env_id": 63,
+      "matched": true
+    },
+    {
+      "env_id": 64,
+      "matched": true
+    },
+    {
+      "env_id": 65,
+      "matched": true
+    },
+    {
+      "env_id": 66,
+      "matched": true
+    },
+    {
+      "env_id": 67,
+      "matched": true
+    },
+    {
+      "env_id": 68,
+      "matched": true
+    },
+    {
+      "env_id": 69,
+      "matched": true
+    },
+    {
+      "env_id": 70,
+      "matched": true
+    },
+    {
+      "env_id": 71,
+      "matched": true
+    },
+    {
+      "env_id": 72,
+      "matched": true
+    },
+    {
+      "env_id": 73,
+      "matched": true
+    },
+    {
+      "env_id": 74,
+      "matched": true
+    },
+    {
+      "env_id": 75,
+      "matched": true
+    },
+    {
+      "env_id": 76,
+      "matched": true
+    },
+    {
+      "env_id": 77,
+      "matched": true
+    },
+    {
+      "env_id": 78,
+      "matched": true
+    },
+    {
+      "env_id": 79,
+      "matched": true
+    },
+    {
+      "env_id": 80,
+      "matched": true
+    },
+    {
+      "env_id": 81,
+      "matched": true
+    },
+    {
+      "env_id": 82,
+      "matched": true
+    },
+    {
+      "env_id": 83,
+      "matched": true
+    },
+    {
+      "env_id": 84,
+      "matched": true
+    },
+    {
+      "env_id": 85,
+      "matched": true
+    },
+    {
+      "env_id": 86,
+      "matched": true
+    },
+    {
+      "env_id": 87,
+      "matched": true
+    },
+    {
+      "env_id": 88,
+      "matched": true
+    },
+    {
+      "env_id": 89,
+      "matched": true
+    },
+    {
+      "env_id": 90,
+      "matched": true
+    },
+    {
+      "env_id": 91,
+      "matched": true
+    },
+    {
+      "env_id": 92,
+      "matched": true
+    },
+    {
+      "env_id": 93,
+      "matched": true
+    },
+    {
+      "env_id": 94,
+      "matched": true
+    },
+    {
+      "env_id": 95,
+      "matched": true
+    },
+    {
+      "env_id": 96,
+      "matched": true
+    },
+    {
+      "env_id": 97,
+      "matched": true
+    },
+    {
+      "env_id": 98,
+      "matched": true
+    },
+    {
+      "env_id": 99,
+      "matched": true
+    }
+  ],
+  "cases": [
+    {
+      "env_id": 1,
+      "score": 1072,
+      "steps": 128,
+      "max_tile": 64,
+      "final_board_matches": true,
+      "verified": {
+        "valid": true,
+        "steps": 128,
+        "score": 1072,
+        "max_tile": 64,
+        "rng_verified": true,
+        "checks": [
+          "initial_board",
+          "legal_actions",
+          "greedy_probabilities",
+          "merge_reward",
+          "spawn_position_and_value",
+          "cumulative_score",
+          "all_boards",
+          "terminal_state",
+          "raw_episode_summary",
+          "seeded_rng_sequence"
+        ]
+      },
+      "replay": "bank13-env1.json",
+      "sha256": "38f3da438652f8cc10910ed1c1689ee20c98b17409593ff112ad1f137ec7c6a4"
+    },
+    {
+      "env_id": 75,
+      "score": 11456,
+      "steps": 672,
+      "max_tile": 1024,
+      "final_board_matches": true,
+      "verified": {
+        "valid": true,
+        "steps": 672,
+        "score": 11456,
+        "max_tile": 1024,
+        "rng_verified": true,
+        "checks": [
+          "initial_board",
+          "legal_actions",
+          "greedy_probabilities",
+          "merge_reward",
+          "spawn_position_and_value",
+          "cumulative_score",
+          "all_boards",
+          "terminal_state",
+          "raw_episode_summary",
+          "seeded_rng_sequence"
+        ]
+      },
+      "replay": "bank13-env75.json",
+      "sha256": "e097698422659b0a76b56fccc264df9d6fb3b5aae7e44c1dc1898d288abf21c2"
+    },
+    {
+      "env_id": 68,
+      "score": 31540,
+      "steps": 1594,
+      "max_tile": 2048,
+      "final_board_matches": true,
+      "verified": {
+        "valid": true,
+        "steps": 1594,
+        "score": 31540,
+        "max_tile": 2048,
+        "rng_verified": true,
+        "checks": [
+          "initial_board",
+          "legal_actions",
+          "greedy_probabilities",
+          "merge_reward",
+          "spawn_position_and_value",
+          "cumulative_score",
+          "all_boards",
+          "terminal_state",
+          "raw_episode_summary",
+          "seeded_rng_sequence"
+        ]
+      },
+      "replay": "bank13-env68.json",
+      "sha256": "420600a83ed71086bef4fd18ca8c5d46650084c4babda431a3c10ac66f1592d3"
+    },
+    {
+      "env_id": 39,
+      "score": 36676,
+      "steps": 1908,
+      "max_tile": 2048,
+      "final_board_matches": true,
+      "verified": {
+        "valid": true,
+        "steps": 1908,
+        "score": 36676,
+        "max_tile": 2048,
+        "rng_verified": true,
+        "checks": [
+          "initial_board",
+          "legal_actions",
+          "greedy_probabilities",
+          "merge_reward",
+          "spawn_position_and_value",
+          "cumulative_score",
+          "all_boards",
+          "terminal_state",
+          "raw_episode_summary",
+          "seeded_rng_sequence"
+        ]
+      },
+      "replay": "bank13-env39.json",
+      "sha256": "299b2be44956044aa7d3e2c3ba1ae19e552a2f777109d8b250e2ea262787e1af"
+    },
+    {
+      "env_id": 61,
+      "score": 70376,
+      "steps": 3209,
+      "max_tile": 4096,
+      "final_board_matches": true,
+      "verified": {
+        "valid": true,
+        "steps": 3209,
+        "score": 70376,
+        "max_tile": 4096,
+        "rng_verified": true,
+        "checks": [
+          "initial_board",
+          "legal_actions",
+          "greedy_probabilities",
+          "merge_reward",
+          "spawn_position_and_value",
+          "cumulative_score",
+          "all_boards",
+          "terminal_state",
+          "raw_episode_summary",
+          "seeded_rng_sequence"
+        ]
+      },
+      "replay": "bank13-env61.json",
+      "sha256": "23150a8b74300c719e811e36e5bc00b5d338091dc39dc9a7989a9da1c439f2e2"
+    }
+  ],
+  "historical_per_step_logs_available": false,
+  "comparison_scope": "All historical final boards, scores, lengths and maximum tiles; independently verify reconstructed trajectories and seeded RNG.",
+  "total_saved_steps": 7511
+}

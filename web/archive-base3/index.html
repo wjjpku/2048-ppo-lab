@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="data:,"><title>历史模型 base3@4890 · 2048观察室</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar wrap"><a class="brand" href="../" aria-label="2048 PPO Lab首页"><span class="logo">2048</span><span>模型观察室</span></a><span class="local"><i></i>本地回放 · 只读档案</span></header>
+  <main class="wrap"><div class="notice"><p><strong>历史模型 base3@4890 · bank13。</strong>这里的五局不是当前默认推理模型exp4to8-7640；不同bank的均分不能直接当作提升。<a href="../">返回项目总览</a></p></div>
+    <section class="intro"><div><p class="eyebrow">POLICY REPLAY / 01</p><h1>看见每一步决策。</h1><p class="intro-text">从真实棋局，观察模型的合并、取舍与结局。</p></div><div class="model-badge"><span>冻结模型</span><strong>base3<span>@4890</span></strong><small>bank 13 · greedy · seed 1</small></div></section>
+    <div id="loading" role="status">正在读取本地真实记录…</div>
+    <div id="app" hidden>
+      <section class="workspace" aria-label="真实单局回放">
+        <div class="replay-panel">
+          <div class="panel-heading"><div><span class="eyebrow">COMPLETE GAME REPLAY</span><h2><b id="episode-heading">第 0 号棋局</b> <span id="source-kind">原始记录</span></h2></div><span id="verified-badge" class="verified" title="包含动作、棋盘、随机块及得分的逐步核验">✓ 835 步已核验</span></div>
+          <label class="episode-picker">当前案例<select id="episode-selector" aria-label="选择完整回放案例"></select></label><p id="replay-source-note" class="source-note">原始保存的完整逐步记录。</p>
+          <div class="metrics"><div><span>当前分数</span><strong id="score">0</strong><small id="gain">起始棋盘</small></div><div><span>最大方块</span><strong id="max-tile">4</strong><small>当前棋盘</small></div><div><span>本步动作</span><strong id="action">—</strong><small id="move-label">等待播放</small></div></div>
+          <div class="board-shell"><div id="board" class="board" role="img" aria-label="2048棋盘"><div class="grid-bg" aria-hidden="true"></div><div id="tiles"></div></div></div>
+          <div class="board-caption"><span><i class="spawn-ring"></i>描边标记随机新块</span><span id="game-status">初始状态</span></div>
+          <div class="transport"><div class="buttons"><button id="first" class="icon-button" aria-label="回到开局" title="回到开局">↤</button><button id="prev" class="icon-button" aria-label="上一步" title="上一步（←）">‹</button><button id="play" class="play" aria-label="播放回放">▶ <span>播放</span></button><button id="next" class="icon-button" aria-label="下一步" title="下一步（→）">›</button><button id="last" class="icon-button" aria-label="跳到终局" title="跳到终局">↦</button></div><label class="speed-label">倍速<select id="speed" aria-label="播放倍速"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option><option value="8">8×</option></select></label></div>
+          <div class="timeline-head"><label for="timeline">时间轴</label><span><b id="step">0</b> / <span id="total-steps">835</span> 步</span></div><input id="timeline" type="range" min="0" max="835" value="0" aria-label="回放时间轴">
+          <div id="milestones" class="milestones" aria-label="首次达到方块的时刻"></div>
+          <p class="keyboard">空格 播放 / 暂停 <span>← → 单步</span> <span>Home / End 开局 / 终局</span></p>
+        </div>
+        <aside class="inspector">
+          <section class="card decision"><div class="card-title"><h3>模型在想什么</h3><span id="decision-title">下一步策略</span></div><p class="muted">合法动作中，选择概率最高的方向。</p><div id="probabilities"></div><div class="decision-note"><span id="decision-note">—</span><span>贪心决策</span></div></section>
+          <section class="card"><div class="card-title"><h3>这一刻</h3><span id="event-step">初始棋盘</span></div><dl class="facts"><div><dt>随机新块</dt><dd id="spawn">初始 2 块</dd></div><div><dt>本步合并得分</dt><dd id="reward">—</dd></div><div><dt>空余格数</dt><dd id="empty">14 / 16</dd></div><div><dt>棋局状态</dt><dd id="state">可继续</dd></div></dl></section>
+          <section class="card result-card"><p class="eyebrow">FULL EPISODE</p><div class="result-number"><b id="final-score">14,408</b> <span>最终分数</span></div><div class="result-details"><span id="final-length">835 步</span><span id="final-max">最大块 1024</span><span>自然终局</span></div><svg id="score-chart" viewBox="0 0 360 74" role="img" aria-label="这局棋的累计分数随步数变化"><path id="score-area"/><polyline id="score-line"/><line id="chart-cursor" y1="0" y2="74"/></svg><p id="episode-context" class="muted">按分数升序位于 100 局中的第 18 名。原评估固定记录第 0 号棋局，未按得分挑选。</p></section>
+          <div class="integrity"><span class="check-icon">✓</span><p><strong>来源可追溯，过程可核验</strong><br>动作 · 随机块序列 · 棋盘 · 累计得分<br><a id="verification-link" href="verification.json" target="_blank" rel="noopener">查看核验记录 ↗</a></p></div>
+        </aside>
+      </section>
+      <section class="sample-section" aria-label="五档真实表现实例"><div class="section-title"><div><p class="eyebrow">PERFORMANCE SPECTRUM</p><h2>同一个模型，五种结局。</h2></div><span class="subtle-tag">五局均可完整播放 / bank 13</span></div><p class="sample-lead">按分数从低到高，取第 1、10、50、90、100 名。点击任一案例，从开局逐步看完整局。</p><div class="notice"><span>i</span><p><strong>五局完整轨迹已在 CPU 确定性重建。</strong> 使用原 seed、冻结 base3@4890、greedy 及原100局环境映射；分数、步数、最大块和终局棋盘与原记录完全匹配。历史中间日志未保存，重建轨迹已独立核验全部动作和随机块。</p></div><div id="samples" class="samples"></div><div class="aggregate"><span>100 局均分 <b>28,595.76</b></span><span>中位数 <b>31,626</b></span><span>达到 2048 <b>71 / 100</b></span><span>达到 4096 <b>9 / 100</b></span></div><p class="footnote">P10 / 中位 / P90 附近指排序中的实际单局，分数不等同于插值分位数。原评估成绩保持不变；重建不计作新的独立测试。</p></section>
+      <details class="provenance"><summary>数据来源与选择规则 <span>已完成的冻结模型评估</span></summary><div class="provenance-body"><p>模型 <b>base3@4890</b>；测试 bank 13；seed 1；greedy 模式；动作相同概率时按上、右、下、左顺序选择。模型检查点已由原实验审计锁定。</p><p id="selection-rule"></p><p>第0号局使用历史原始逐步日志。五档案例为冻结模型按原seed的CPU确定性重建；全部100局终局结果匹配，所展示五局的每步规则和RNG已核验。历史五局中间日志不存在，无法与历史逐步记录直接比对。棋盘以指数存储，界面显示2的幂；浏览器只播放数据，不抽样或执行模型推理。</p><p>检查点 SHA256：<code id="model-hash"></code></p><p>当前回放 SHA256：<code id="replay-hash"></code></p><div class="source-links"><a id="replay-download" href="replay.json" download="base3-4890-bank13-env0-replay.json">下载当前完整回放 JSON ↓</a><a href="selected_test.json" download="base3-4890-bank13-results.json">下载 100 局原始结果 ↓</a><a href="reconstructed/verification.json" target="_blank" rel="noopener">五局重建核验 ↗</a><a href="../#results">分bank的实验结果 ↗</a></div></div></details>
+    </div>
+  </main>
+  <footer class="wrap footer"><span>2048 · 模型观察室</span><span>静态数据 / 本地运行 / 无外部依赖</span></footer>
+  <dialog id="snapshot-dialog"><div class="dialog-heading"><div><p class="eyebrow">FINAL BOARD</p><h2 id="snapshot-title"></h2></div><button id="close-dialog" aria-label="关闭终局快照">×</button></div><p id="snapshot-info" class="muted"></p><div id="snapshot-board" class="mini-board large"></div><p class="snapshot-note">这是已完成评估的真实终局。该局未保存逐步轨迹，无法回放中间过程。</p></dialog>
+  <script src="app.js" defer></script>
+</body>
+</html>

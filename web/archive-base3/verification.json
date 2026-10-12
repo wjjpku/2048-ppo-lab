@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "steps": 835,
+  "score": 14408,
+  "max_tile": 1024,
+  "rng_verified": true,
+  "checks": [
+    "initial_board",
+    "legal_actions",
+    "greedy_probabilities",
+    "merge_reward",
+    "spawn_position_and_value",
+    "cumulative_score",
+    "all_boards",
+    "terminal_state",
+    "raw_episode_summary",
+    "seeded_rng_sequence"
+  ]
+}

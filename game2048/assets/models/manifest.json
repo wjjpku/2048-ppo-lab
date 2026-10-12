@@ -1,0 +1,55 @@
+{
+  "default": "exp4to8-7640",
+  "models": [
+    {
+      "id": "base4-5840",
+      "iteration": 5840,
+      "hidden_size": 832,
+      "parameters": 977605,
+      "reward_base": 4.0,
+      "file": "base4-5840.pt",
+      "sha256": "a4afea4d409c037b2bb2cd9ea555eeaf8b39bd4458b0e1d814842b91bc28685c",
+      "bytes": 3913613,
+      "source_checkpoint_sha256": "be3d30408f693eb9841f4908495d48c2491ed77f1798169c7070a707dd61e09c",
+      "export_contents": "state_dict and minimal model metadata only",
+      "parity": {
+        "boards": 64,
+        "logits_exact": true,
+        "values_exact": true,
+        "device": "cpu",
+        "torch": "2.12.1+cu130"
+      },
+      "evaluation": {
+        "seed": 1,
+        "bank": 16,
+        "mode": "greedy",
+        "episodes": 100
+      }
+    },
+    {
+      "id": "exp4to8-7640",
+      "iteration": 7640,
+      "hidden_size": 832,
+      "parameters": 977605,
+      "reward_base": 7.464005115696155,
+      "file": "exp4to8-7640.pt",
+      "sha256": "078e2b741ea6175caad12457c2d3d4b58b525d66385671dd85e482bc02729128",
+      "bytes": 3913613,
+      "source_checkpoint_sha256": "793d4394f3a1f528a396a12bd5f8a9ef98bf27723f6981830a1c32aaa1cc39fa",
+      "export_contents": "state_dict and minimal model metadata only",
+      "parity": {
+        "boards": 64,
+        "logits_exact": true,
+        "values_exact": true,
+        "device": "cpu",
+        "torch": "2.12.1+cu130"
+      },
+      "evaluation": {
+        "seed": 1,
+        "bank": 16,
+        "mode": "greedy",
+        "episodes": 100
+      }
+    }
+  ]
+}
